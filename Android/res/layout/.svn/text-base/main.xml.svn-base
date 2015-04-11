@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/lyIngreso"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Registrar/Ingresar"
+            android:singleLine="true" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/editPwd"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:singleLine="true"
+            android:text="1234" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal" >
+
+            <Button
+                android:id="@+id/btnIngresar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_btn_actualizar"
+                android:text="Ingresar" />
+
+            <LinearLayout
+                android:layout_width="5dp"
+                android:layout_height="1dp" >
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnRegistrar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_btn_actualizar"
+                android:text="Registrar" />
+
+            <!-- <LinearLayout -->
+            <!-- android:layout_width="5dp" -->
+            <!-- android:layout_height="1dp" > -->
+            <!-- </LinearLayout> -->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="5dp" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <Button
+                android:id="@+id/btnAddContacto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_btn_actualizar"
+                android:text="Add contacto" />
+
+            <LinearLayout
+                android:layout_width="5dp"
+                android:layout_height="1dp" >
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnBlock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_btn_actualizar"
+                android:text="Bloqueo" />
+
+            <LinearLayout
+                android:layout_width="5dp"
+                android:layout_height="1dp" >
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnSalir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_btn_actualizar"
+                android:text="Salir" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyTop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/imgBtnConfirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dialog" />
+
+        <TextView
+            android:id="@+id/txtPin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Pin: " />
+
+        <Spinner
+            android:id="@+id/spEstado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/lyIngreso"
+        android:layout_below="@id/lyTop" >
+    </ListView>
+
+</RelativeLayout>

@@ -1,0 +1,1389 @@
+DEBUG: 26/04/2012 05:49:32 PM Alias: tedCliente Id: bc:47:60:f2:23:c6, msj: U-17|[Sim]118falseU-17|l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l.
+DEBUG: 26/04/2012 05:49:32 PM Enviando Long. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Alias: tedCliente Id: bc:47:60:f2:23:c6, msj: 
+DEBUG: 26/04/2012 05:49:32 PM Enviando Float. Id: bc:47:60:f2:23:c6, valor: 0.0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Float. Id: bc:47:60:f2:23:c6, valor: 0.0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 18
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 1
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 1
+DEBUG: 26/04/2012 05:49:32 PM Cliente Id: bc:47:60:f2:23:c6, msj: [B@1747bd5
+DEBUG: 26/04/2012 05:49:32 PM Sender: Esperando comando:
+DEBUG: 26/04/2012 05:49:32 PM Sender: Comando leido: 110
+DEBUG: 26/04/2012 05:49:32 PM Alias: tedCliente Id: bc:47:60:f2:23:c6, msj: U-6|[Sim]118falseU-6|l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l.
+DEBUG: 26/04/2012 05:49:32 PM Enviando Long. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Alias: tedCliente Id: bc:47:60:f2:23:c6, msj: 
+DEBUG: 26/04/2012 05:49:32 PM Enviando Float. Id: bc:47:60:f2:23:c6, valor: 0.0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Float. Id: bc:47:60:f2:23:c6, valor: 0.0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 18
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 1
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 1
+DEBUG: 26/04/2012 05:49:32 PM Cliente Id: bc:47:60:f2:23:c6, msj: [B@7acc17
+DEBUG: 26/04/2012 05:49:32 PM Sender: Esperando comando:
+DEBUG: 26/04/2012 05:49:32 PM Sender: Comando leido: 110
+DEBUG: 26/04/2012 05:49:32 PM Alias: tedCliente Id: bc:47:60:f2:23:c6, msj: U-13|[Sim]118falseU-13|l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l.
+DEBUG: 26/04/2012 05:49:32 PM Enviando Long. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Alias: tedCliente Id: bc:47:60:f2:23:c6, msj: 
+DEBUG: 26/04/2012 05:49:32 PM Enviando Float. Id: bc:47:60:f2:23:c6, valor: 0.0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Float. Id: bc:47:60:f2:23:c6, valor: 0.0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 18
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 1
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 1
+DEBUG: 26/04/2012 05:49:32 PM Cliente Id: bc:47:60:f2:23:c6, msj: [B@1417ac9
+DEBUG: 26/04/2012 05:49:32 PM Sender: Esperando comando:
+DEBUG: 26/04/2012 05:49:32 PM Sender: Comando leido: 110
+DEBUG: 26/04/2012 05:49:32 PM Alias: tedCliente Id: bc:47:60:f2:23:c6, msj: U-10|[Sim]118falseU-10|l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l.
+DEBUG: 26/04/2012 05:49:32 PM Enviando Long. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Alias: tedCliente Id: bc:47:60:f2:23:c6, msj: 
+DEBUG: 26/04/2012 05:49:32 PM Enviando Float. Id: bc:47:60:f2:23:c6, valor: 0.0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Float. Id: bc:47:60:f2:23:c6, valor: 0.0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 18
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 1
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 1
+DEBUG: 26/04/2012 05:49:32 PM Cliente Id: bc:47:60:f2:23:c6, msj: [B@ca5e61
+DEBUG: 26/04/2012 05:49:32 PM Sender: Esperando comando:
+DEBUG: 26/04/2012 05:49:32 PM Sender: Comando leido: 110
+DEBUG: 26/04/2012 05:49:32 PM Alias: tedCliente Id: bc:47:60:f2:23:c6, msj: U-2|[Sim]118falseU-2|l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l.
+DEBUG: 26/04/2012 05:49:32 PM Enviando Long. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Alias: tedCliente Id: bc:47:60:f2:23:c6, msj: 
+DEBUG: 26/04/2012 05:49:32 PM Enviando Float. Id: bc:47:60:f2:23:c6, valor: 0.0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Float. Id: bc:47:60:f2:23:c6, valor: 0.0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 18
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 1
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 1
+DEBUG: 26/04/2012 05:49:32 PM Cliente Id: bc:47:60:f2:23:c6, msj: [B@bedc34
+DEBUG: 26/04/2012 05:49:32 PM Sender: Esperando comando:
+DEBUG: 26/04/2012 05:49:32 PM Sender: Comando leido: 110
+DEBUG: 26/04/2012 05:49:32 PM Alias: tedCliente Id: bc:47:60:f2:23:c6, msj: U-9|[Sim]118falseU-9|l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l.
+DEBUG: 26/04/2012 05:49:32 PM Enviando Long. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Alias: tedCliente Id: bc:47:60:f2:23:c6, msj: 
+DEBUG: 26/04/2012 05:49:32 PM Enviando Float. Id: bc:47:60:f2:23:c6, valor: 0.0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Float. Id: bc:47:60:f2:23:c6, valor: 0.0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 18
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 1
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 1
+DEBUG: 26/04/2012 05:49:32 PM Cliente Id: bc:47:60:f2:23:c6, msj: [B@10e600
+DEBUG: 26/04/2012 05:49:32 PM Sender: Esperando comando:
+DEBUG: 26/04/2012 05:49:32 PM Sender: Comando leido: 110
+DEBUG: 26/04/2012 05:49:32 PM Alias: tedCliente Id: bc:47:60:f2:23:c6, msj: U-18|[Sim]118falseU-18|l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l.
+DEBUG: 26/04/2012 05:49:32 PM Enviando Long. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Alias: tedCliente Id: bc:47:60:f2:23:c6, msj: 
+DEBUG: 26/04/2012 05:49:32 PM Enviando Float. Id: bc:47:60:f2:23:c6, valor: 0.0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Float. Id: bc:47:60:f2:23:c6, valor: 0.0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 18
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 1
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 1
+DEBUG: 26/04/2012 05:49:32 PM Cliente Id: bc:47:60:f2:23:c6, msj: [B@100834b
+DEBUG: 26/04/2012 05:49:32 PM Sender: Esperando comando:
+DEBUG: 26/04/2012 05:49:32 PM Sender: Comando leido: 110
+DEBUG: 26/04/2012 05:49:32 PM Alias: tedCliente Id: bc:47:60:f2:23:c6, msj: U-7|[Sim]118falseU-7|l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l.
+DEBUG: 26/04/2012 05:49:32 PM Enviando Long. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Alias: tedCliente Id: bc:47:60:f2:23:c6, msj: 
+DEBUG: 26/04/2012 05:49:32 PM Enviando Float. Id: bc:47:60:f2:23:c6, valor: 0.0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Float. Id: bc:47:60:f2:23:c6, valor: 0.0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 18
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 1
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 1
+DEBUG: 26/04/2012 05:49:32 PM Cliente Id: bc:47:60:f2:23:c6, msj: [B@aaac94
+DEBUG: 26/04/2012 05:49:32 PM Sender: Esperando comando:
+DEBUG: 26/04/2012 05:49:32 PM Sender: Comando leido: 110
+DEBUG: 26/04/2012 05:49:32 PM Alias: tedCliente Id: bc:47:60:f2:23:c6, msj: U-4|[Sim]118falseU-4|l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l.
+DEBUG: 26/04/2012 05:49:32 PM Enviando Long. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Alias: tedCliente Id: bc:47:60:f2:23:c6, msj: 
+DEBUG: 26/04/2012 05:49:32 PM Enviando Float. Id: bc:47:60:f2:23:c6, valor: 0.0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Float. Id: bc:47:60:f2:23:c6, valor: 0.0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 18
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 1
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 1
+DEBUG: 26/04/2012 05:49:32 PM Cliente Id: bc:47:60:f2:23:c6, msj: [B@3cfe2d
+DEBUG: 26/04/2012 05:49:32 PM Sender: Esperando comando:
+DEBUG: 26/04/2012 05:49:32 PM Sender: Comando leido: 110
+DEBUG: 26/04/2012 05:49:32 PM Alias: tedCliente Id: bc:47:60:f2:23:c6, msj: U-15|[Sim]118falseU-15|l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l.
+DEBUG: 26/04/2012 05:49:32 PM Enviando Long. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Alias: tedCliente Id: bc:47:60:f2:23:c6, msj: 
+DEBUG: 26/04/2012 05:49:32 PM Enviando Float. Id: bc:47:60:f2:23:c6, valor: 0.0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Float. Id: bc:47:60:f2:23:c6, valor: 0.0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 18
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 1
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 1
+DEBUG: 26/04/2012 05:49:32 PM Cliente Id: bc:47:60:f2:23:c6, msj: [B@41aed4
+DEBUG: 26/04/2012 05:49:32 PM Sender: Esperando comando:
+DEBUG: 26/04/2012 05:49:32 PM Sender: Comando leido: 110
+DEBUG: 26/04/2012 05:49:32 PM Alias: tedCliente Id: bc:47:60:f2:23:c6, msj: U-0|[Sim]118falseU-0|l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l.
+DEBUG: 26/04/2012 05:49:32 PM Enviando Long. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Alias: tedCliente Id: bc:47:60:f2:23:c6, msj: 
+DEBUG: 26/04/2012 05:49:32 PM Enviando Float. Id: bc:47:60:f2:23:c6, valor: 0.0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Float. Id: bc:47:60:f2:23:c6, valor: 0.0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 18
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 1
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 1
+DEBUG: 26/04/2012 05:49:32 PM Cliente Id: bc:47:60:f2:23:c6, msj: [B@535412
+DEBUG: 26/04/2012 05:49:32 PM Sender: Esperando comando:
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-11, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-11, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-11, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-11, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: [Sim]118falseU-11, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: [Sim]118falseU-11, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: [Sim]118falseU-11, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: [Sim]118falseU-11, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-11, valor: 34
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-11, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: [Sim]118falseU-11, valor: 4
+DEBUG: 26/04/2012 05:49:32 PM Cliente Id: [Sim]118falseU-11, msj: [B@15f1aea
+DEBUG: 26/04/2012 05:49:32 PM Sender: Esperando comando:
+DEBUG: 26/04/2012 05:49:32 PM Alias: U-1Cliente Id: [Sim]118falseU-1, msj: ted|bc:47:60:f2:23:c6|
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-3, valor: 34
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-3, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: [Sim]118falseU-3, valor: 4
+DEBUG: 26/04/2012 05:49:32 PM Cliente Id: [Sim]118falseU-3, msj: [B@15f1aea
+DEBUG: 26/04/2012 05:49:32 PM Sender: Esperando comando:
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-14, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-14, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: [Sim]118falseU-14, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: [Sim]118falseU-14, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: [Sim]118falseU-14, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: [Sim]118falseU-14, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-14, valor: 34
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-14, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: [Sim]118falseU-14, valor: 4
+DEBUG: 26/04/2012 05:49:32 PM Cliente Id: [Sim]118falseU-14, msj: [B@15f1aea
+DEBUG: 26/04/2012 05:49:32 PM Sender: Esperando comando:
+DEBUG: 26/04/2012 05:49:32 PM Alias: U-15Cliente Id: [Sim]118falseU-15, msj: 
+DEBUG: 26/04/2012 05:49:32 PM Enviando Float. Id: [Sim]118falseU-15, valor: 0.0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Float. Id: [Sim]118falseU-15, valor: 0.0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-15, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-15, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-15, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-15, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: [Sim]118falseU-15, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: [Sim]118falseU-15, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: [Sim]118falseU-15, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: [Sim]118falseU-15, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-15, valor: 34
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-15, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: [Sim]118falseU-15, valor: 4
+DEBUG: 26/04/2012 05:49:32 PM Cliente Id: [Sim]118falseU-15, msj: [B@15f1aea
+DEBUG: 26/04/2012 05:49:32 PM Sender: Esperando comando:
+DEBUG: 26/04/2012 05:49:32 PM Alias: U-18Cliente Id: [Sim]118falseU-18, msj: ted|bc:47:60:f2:23:c6|
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-13, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Long. Id: [Sim]118falseU-18, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Float. Id: [Sim]118falseU-2, valor: 0.0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Float. Id: [Sim]118falseU-2, valor: 0.0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-2, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-2, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-2, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-2, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: [Sim]118falseU-2, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: [Sim]118falseU-2, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: [Sim]118falseU-2, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: [Sim]118falseU-2, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-2, valor: 34
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-2, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: [Sim]118falseU-2, valor: 4
+DEBUG: 26/04/2012 05:49:32 PM Cliente Id: [Sim]118falseU-2, msj: [B@15f1aea
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-7, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-7, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-7, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-7, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: [Sim]118falseU-7, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: [Sim]118falseU-7, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: [Sim]118falseU-7, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: [Sim]118falseU-7, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Alias: U-6Cliente Id: [Sim]118falseU-6, msj: ted|bc:47:60:f2:23:c6|
+DEBUG: 26/04/2012 05:49:32 PM Enviando Long. Id: [Sim]118falseU-6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Alias: U-6Cliente Id: [Sim]118falseU-6, msj: 
+DEBUG: 26/04/2012 05:49:32 PM Enviando Float. Id: [Sim]118falseU-6, valor: 0.0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Float. Id: [Sim]118falseU-6, valor: 0.0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: [Sim]118falseU-6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: [Sim]118falseU-6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: [Sim]118falseU-6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: [Sim]118falseU-6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-6, valor: 34
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: [Sim]118falseU-6, valor: 4
+DEBUG: 26/04/2012 05:49:32 PM Cliente Id: [Sim]118falseU-6, msj: [B@15f1aea
+DEBUG: 26/04/2012 05:49:32 PM Sender: Esperando comando:
+DEBUG: 26/04/2012 05:49:32 PM Comando Id: [Sim]118falseU-17, comando: 4
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-7, valor: 34
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-7, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: [Sim]118falseU-7, valor: 4
+DEBUG: 26/04/2012 05:49:32 PM Cliente Id: [Sim]118falseU-7, msj: [B@15f1aea
+DEBUG: 26/04/2012 05:49:32 PM Sender: Esperando comando:
+DEBUG: 26/04/2012 05:49:32 PM Sender: Esperando comando:
+DEBUG: 26/04/2012 05:49:32 PM Alias: U-18Cliente Id: [Sim]118falseU-18, msj: 
+DEBUG: 26/04/2012 05:49:32 PM Enviando Float. Id: [Sim]118falseU-18, valor: 0.0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Float. Id: [Sim]118falseU-18, valor: 0.0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-13, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-18, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-18, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-18, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-18, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: [Sim]118falseU-18, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: [Sim]118falseU-18, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: [Sim]118falseU-18, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: [Sim]118falseU-18, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-18, valor: 34
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-18, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: [Sim]118falseU-18, valor: 4
+DEBUG: 26/04/2012 05:49:32 PM Cliente Id: [Sim]118falseU-18, msj: [B@15f1aea
+DEBUG: 26/04/2012 05:49:32 PM Sender: Esperando comando:
+DEBUG: 26/04/2012 05:49:32 PM Enviando Long. Id: [Sim]118falseU-1, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Alias: U-1Cliente Id: [Sim]118falseU-1, msj: 
+DEBUG: 26/04/2012 05:49:32 PM Enviando Float. Id: [Sim]118falseU-1, valor: 0.0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Float. Id: [Sim]118falseU-1, valor: 0.0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-1, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-1, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-1, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-1, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: [Sim]118falseU-1, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: [Sim]118falseU-1, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: [Sim]118falseU-1, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: [Sim]118falseU-1, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-1, valor: 34
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: [Sim]118falseU-1, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: [Sim]118falseU-1, valor: 4
+DEBUG: 26/04/2012 05:49:32 PM Cliente Id: [Sim]118falseU-1, msj: [B@15f1aea
+DEBUG: 26/04/2012 05:49:32 PM Sender: Esperando comando:
+DEBUG: 26/04/2012 05:49:32 PM Sender: Comando leido: 110
+DEBUG: 26/04/2012 05:49:32 PM Alias: tedCliente Id: bc:47:60:f2:23:c6, msj: U-5|[Sim]118falseU-5|l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l.
+DEBUG: 26/04/2012 05:49:32 PM Enviando Long. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Alias: tedCliente Id: bc:47:60:f2:23:c6, msj: 
+DEBUG: 26/04/2012 05:49:32 PM Enviando Float. Id: bc:47:60:f2:23:c6, valor: 0.0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Float. Id: bc:47:60:f2:23:c6, valor: 0.0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 18
+DEBUG: 26/04/2012 05:49:32 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 1
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 1
+DEBUG: 26/04/2012 05:49:32 PM Cliente Id: bc:47:60:f2:23:c6, msj: [B@194c86a
+DEBUG: 26/04/2012 05:49:33 PM Sender: Esperando comando:
+DEBUG: 26/04/2012 05:49:33 PM Sender: Comando leido: 110
+DEBUG: 26/04/2012 05:49:33 PM Alias: tedCliente Id: bc:47:60:f2:23:c6, msj: U-14|[Sim]118falseU-14|l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l.
+DEBUG: 26/04/2012 05:49:33 PM Enviando Long. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Alias: tedCliente Id: bc:47:60:f2:23:c6, msj: 
+DEBUG: 26/04/2012 05:49:33 PM Enviando Float. Id: bc:47:60:f2:23:c6, valor: 0.0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Float. Id: bc:47:60:f2:23:c6, valor: 0.0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 18
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 1
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 1
+DEBUG: 26/04/2012 05:49:33 PM Cliente Id: bc:47:60:f2:23:c6, msj: [B@b47d66
+DEBUG: 26/04/2012 05:49:33 PM Sender: Esperando comando:
+DEBUG: 26/04/2012 05:49:33 PM Sender: Comando leido: 110
+DEBUG: 26/04/2012 05:49:33 PM Alias: tedCliente Id: bc:47:60:f2:23:c6, msj: U-3|[Sim]118falseU-3|l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l.
+DEBUG: 26/04/2012 05:49:33 PM Enviando Long. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Alias: tedCliente Id: bc:47:60:f2:23:c6, msj: 
+DEBUG: 26/04/2012 05:49:33 PM Enviando Float. Id: bc:47:60:f2:23:c6, valor: 0.0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Float. Id: bc:47:60:f2:23:c6, valor: 0.0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 18
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 1
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 1
+DEBUG: 26/04/2012 05:49:33 PM Cliente Id: bc:47:60:f2:23:c6, msj: [B@f1d932
+DEBUG: 26/04/2012 05:49:33 PM Sender: Esperando comando:
+DEBUG: 26/04/2012 05:49:33 PM Sender: Comando leido: 110
+DEBUG: 26/04/2012 05:49:33 PM Alias: tedCliente Id: bc:47:60:f2:23:c6, msj: U-1|[Sim]118falseU-1|l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l.
+DEBUG: 26/04/2012 05:49:33 PM Enviando Long. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Alias: tedCliente Id: bc:47:60:f2:23:c6, msj: 
+DEBUG: 26/04/2012 05:49:33 PM Enviando Float. Id: bc:47:60:f2:23:c6, valor: 0.0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Float. Id: bc:47:60:f2:23:c6, valor: 0.0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:32 PM Enviando Int. Id: [Sim]118falseU-13, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: [Sim]118falseU-13, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: [Sim]118falseU-13, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: [Sim]118falseU-13, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: [Sim]118falseU-13, valor: 34
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: [Sim]118falseU-13, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: [Sim]118falseU-13, valor: 4
+DEBUG: 26/04/2012 05:49:33 PM Cliente Id: [Sim]118falseU-13, msj: [B@15f1aea
+DEBUG: 26/04/2012 05:49:33 PM Sender: Esperando comando:
+DEBUG: 26/04/2012 05:49:32 PM Alias: U-17Cliente Id: [Sim]118falseU-17, msj: ted|bc:47:60:f2:23:c6|
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 18
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 1
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 1
+DEBUG: 26/04/2012 05:49:33 PM Cliente Id: bc:47:60:f2:23:c6, msj: [B@1ea9a85
+DEBUG: 26/04/2012 05:49:33 PM Sender: Esperando comando:
+DEBUG: 26/04/2012 05:49:33 PM Sender: Comando leido: 110
+DEBUG: 26/04/2012 05:49:33 PM Alias: tedCliente Id: bc:47:60:f2:23:c6, msj: U-16|[Sim]118falseU-16|l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l.
+DEBUG: 26/04/2012 05:49:33 PM Enviando Long. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Alias: tedCliente Id: bc:47:60:f2:23:c6, msj: 
+DEBUG: 26/04/2012 05:49:33 PM Enviando Float. Id: bc:47:60:f2:23:c6, valor: 0.0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Float. Id: bc:47:60:f2:23:c6, valor: 0.0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 18
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 1
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 1
+DEBUG: 26/04/2012 05:49:33 PM Cliente Id: bc:47:60:f2:23:c6, msj: [B@146b6a5
+DEBUG: 26/04/2012 05:49:33 PM Sender: Esperando comando:
+DEBUG: 26/04/2012 05:49:33 PM Sender: Comando leido: 110
+DEBUG: 26/04/2012 05:49:33 PM Alias: tedCliente Id: bc:47:60:f2:23:c6, msj: U-12|[Sim]118falseU-12|l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l.
+DEBUG: 26/04/2012 05:49:33 PM Enviando Long. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Alias: tedCliente Id: bc:47:60:f2:23:c6, msj: 
+DEBUG: 26/04/2012 05:49:33 PM Enviando Float. Id: bc:47:60:f2:23:c6, valor: 0.0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Float. Id: bc:47:60:f2:23:c6, valor: 0.0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 18
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 1
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 1
+DEBUG: 26/04/2012 05:49:33 PM Cliente Id: bc:47:60:f2:23:c6, msj: [B@18149dd
+DEBUG: 26/04/2012 05:49:33 PM Sender: Esperando comando:
+DEBUG: 26/04/2012 05:49:33 PM Sender: Comando leido: 110
+DEBUG: 26/04/2012 05:49:33 PM Alias: tedCliente Id: bc:47:60:f2:23:c6, msj: U-19|[Sim]118falseU-19|l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l.
+DEBUG: 26/04/2012 05:49:33 PM Enviando Long. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Alias: tedCliente Id: bc:47:60:f2:23:c6, msj: 
+DEBUG: 26/04/2012 05:49:33 PM Enviando Float. Id: bc:47:60:f2:23:c6, valor: 0.0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Float. Id: bc:47:60:f2:23:c6, valor: 0.0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 18
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 1
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 1
+DEBUG: 26/04/2012 05:49:33 PM Cliente Id: bc:47:60:f2:23:c6, msj: [B@c09c6a
+DEBUG: 26/04/2012 05:49:33 PM Sender: Esperando comando:
+DEBUG: 26/04/2012 05:49:33 PM Sender: Comando leido: 110
+DEBUG: 26/04/2012 05:49:33 PM Alias: tedCliente Id: bc:47:60:f2:23:c6, msj: U-8|[Sim]118falseU-8|l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l.
+DEBUG: 26/04/2012 05:49:33 PM Enviando Long. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Alias: tedCliente Id: bc:47:60:f2:23:c6, msj: 
+DEBUG: 26/04/2012 05:49:33 PM Enviando Float. Id: bc:47:60:f2:23:c6, valor: 0.0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Float. Id: bc:47:60:f2:23:c6, valor: 0.0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 18
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 1
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 1
+DEBUG: 26/04/2012 05:49:33 PM Cliente Id: bc:47:60:f2:23:c6, msj: [B@15d1b8a
+DEBUG: 26/04/2012 05:49:33 PM Sender: Esperando comando:
+DEBUG: 26/04/2012 05:49:33 PM Sender: Comando leido: 110
+DEBUG: 26/04/2012 05:49:33 PM Alias: tedCliente Id: bc:47:60:f2:23:c6, msj: U-11|[Sim]118falseU-11|l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l.
+DEBUG: 26/04/2012 05:49:33 PM Enviando Long. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Alias: tedCliente Id: bc:47:60:f2:23:c6, msj: 
+DEBUG: 26/04/2012 05:49:33 PM Enviando Float. Id: bc:47:60:f2:23:c6, valor: 0.0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Float. Id: bc:47:60:f2:23:c6, valor: 0.0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 18
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 1
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 1
+DEBUG: 26/04/2012 05:49:33 PM Cliente Id: bc:47:60:f2:23:c6, msj: [B@1187d27
+DEBUG: 26/04/2012 05:49:33 PM Sender: Esperando comando:
+DEBUG: 26/04/2012 05:49:33 PM Sender: Comando leido: 110
+DEBUG: 26/04/2012 05:49:33 PM Alias: tedCliente Id: bc:47:60:f2:23:c6, msj: sd|bc:47:60:f2:8b:b8|
+DEBUG: 26/04/2012 05:49:33 PM Enviando Long. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Alias: tedCliente Id: bc:47:60:f2:23:c6, msj: 
+DEBUG: 26/04/2012 05:49:33 PM Enviando Float. Id: bc:47:60:f2:23:c6, valor: 0.0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Float. Id: bc:47:60:f2:23:c6, valor: 0.0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Long. Id: [Sim]118falseU-17, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 24
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: bc:47:60:f2:23:c6, valor: 1
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: bc:47:60:f2:23:c6, valor: 41939
+DEBUG: 26/04/2012 05:49:33 PM Cliente Id: bc:47:60:f2:23:c6, msj: [B@1ad95bd
+DEBUG: 26/04/2012 05:49:33 PM Sender: Esperando comando:
+DEBUG: 26/04/2012 05:49:33 PM Alias: U-17Cliente Id: [Sim]118falseU-17, msj: 
+DEBUG: 26/04/2012 05:49:33 PM Enviando Float. Id: [Sim]118falseU-17, valor: 0.0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Float. Id: [Sim]118falseU-17, valor: 0.0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: [Sim]118falseU-17, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: [Sim]118falseU-17, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: [Sim]118falseU-17, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: [Sim]118falseU-17, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: [Sim]118falseU-17, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: [Sim]118falseU-17, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: [Sim]118falseU-17, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: [Sim]118falseU-17, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: [Sim]118falseU-17, valor: 34
+DEBUG: 26/04/2012 05:49:33 PM Enviando Byte. Id: [Sim]118falseU-17, valor: 0
+DEBUG: 26/04/2012 05:49:33 PM Enviando Int. Id: [Sim]118falseU-17, valor: 4
+DEBUG: 26/04/2012 05:49:33 PM Cliente Id: [Sim]118falseU-17, msj: [B@15f1aea
+DEBUG: 26/04/2012 05:49:33 PM Sender: Esperando comando:
+INFO : 22/05/2012 11:30:42 AM Bienvenido al servidor de HiMatch.
+ Iniciado en el puerto: 453, maximo número de clientes: 100
+INFO : 22/05/2012 11:30:42 AM Bienvenido al servidor de HiMatch.
+ Iniciado en el puerto: 453, maximo número de clientes: 100
+INFO : 22/05/2012 11:30:42 AM Eperando conexiones...
+-----------------------------------------------------
+INFO : 22/05/2012 11:30:42 AM Eperando conexiones...
+-----------------------------------------------------
+INFO : 22/05/2012 11:32:49 AM Eperando conexiones...
+-----------------------------------------------------
+INFO : 22/05/2012 11:32:49 AM Eperando conexiones...
+-----------------------------------------------------
+DEBUG: 22/05/2012 11:32:49 AM Sender: Esperando comando:
+DEBUG: 22/05/2012 11:32:49 AM Sender: Esperando comando:
+DEBUG: 22/05/2012 11:32:49 AM Listener: Esperando comando:
+DEBUG: 22/05/2012 11:32:49 AM Listener: Esperando comando:
+DEBUG: 22/05/2012 11:32:49 AM Listener: Comando leido: 0
+DEBUG: 22/05/2012 11:32:49 AM Listener: Comando leido: 0
+DEBUG: 22/05/2012 11:32:49 AM Send NowUTF: ok
+DEBUG: 22/05/2012 11:32:49 AM Send NowUTF: ok
+INFO : 22/05/2012 11:32:49 AM El cliente dice: RedHiMatch_V0.1>>Hola!
+INFO : 22/05/2012 11:32:49 AM El cliente dice: RedHiMatch_V0.1>>Hola!
+INFO : 22/05/2012 11:32:49 AM Id del cliente: [BB]8500553648138
+INFO : 22/05/2012 11:32:49 AM Id del cliente: [BB]8500553648138
+INFO : 22/05/2012 11:32:49 AM Alias: Chala
+INFO : 22/05/2012 11:32:49 AM Alias: Chala
+INFO : 22/05/2012 11:32:49 AM Sexo: 1
+INFO : 22/05/2012 11:32:49 AM Sexo: 1
+INFO : 22/05/2012 11:32:49 AM Descripcion: 
+INFO : 22/05/2012 11:32:49 AM Descripcion: 
+DEBUG: 22/05/2012 11:32:49 AM Llamando a serverDistpatcher.
+DEBUG: 22/05/2012 11:32:49 AM Llamando a serverDistpatcher.
+DEBUG: 22/05/2012 11:32:49 AM serverDistpatcher. readInit().
+DEBUG: 22/05/2012 11:32:49 AM serverDistpatcher. readInit().
+DEBUG: 22/05/2012 11:32:49 AM ++++++++++++++++++readInit(). Agregando Cliente Nuevo:
+DEBUG: 22/05/2012 11:32:49 AM ++++++++++++++++++readInit(). Agregando Cliente Nuevo:
+DEBUG: 22/05/2012 11:32:49 AM enviarUsuariosCercanos().
+DEBUG: 22/05/2012 11:32:49 AM enviarUsuariosCercanos().
+DEBUG: 22/05/2012 11:32:49 AM enviarUsuariosCercanos(). Filtrando clientes.
+DEBUG: 22/05/2012 11:32:49 AM enviarUsuariosCercanos(). Filtrando clientes.
+DEBUG: 22/05/2012 11:32:49 AM enviarUsuariosCercanos(). Sincronizando cliente: Chala
+DEBUG: 22/05/2012 11:32:49 AM enviarUsuariosCercanos(). Sincronizando cliente: Chala
+DEBUG: 22/05/2012 11:32:49 AM enviarUsuariosCercanos(). No se encontraron clientes cercanos a: Chala
+DEBUG: 22/05/2012 11:32:49 AM enviarUsuariosCercanos(). No se encontraron clientes cercanos a: Chala
+DEBUG: 22/05/2012 11:32:49 AM ################ Num comandos en cola: 1
+DEBUG: 22/05/2012 11:32:49 AM ################ Num comandos en cola: 1
+DEBUG: 22/05/2012 11:32:49 AM enviarUsuariosCercanos(). Sincronizando cliente FINALIZADO: Chala
+DEBUG: 22/05/2012 11:32:49 AM enviarUsuariosCercanos(). Sincronizando cliente FINALIZADO: Chala
+DEBUG: 22/05/2012 11:32:49 AM Sender: Comando leido: 112
+DEBUG: 22/05/2012 11:32:49 AM Sender: Comando leido: 112
+DEBUG: 22/05/2012 11:32:49 AM enviarInfoAClientesCercanos. Total clientes: 0, clientes cercanos: 0
+DEBUG: 22/05/2012 11:32:49 AM enviarInfoAClientesCercanos. Total clientes: 0, clientes cercanos: 0
+DEBUG: 22/05/2012 11:32:49 AM Listener: Esperando comando:
+DEBUG: 22/05/2012 11:32:49 AM Listener: Esperando comando:
+DEBUG: 22/05/2012 11:32:49 AM Enviando Short. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 11:32:49 AM Enviando Short. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 11:32:49 AM Sender: Esperando comando:
+DEBUG: 22/05/2012 11:32:49 AM Sender: Esperando comando:
+INFO : 22/05/2012 11:35:28 AM Eperando conexiones...
+-----------------------------------------------------
+INFO : 22/05/2012 11:35:28 AM Eperando conexiones...
+-----------------------------------------------------
+DEBUG: 22/05/2012 11:35:28 AM Listener: Esperando comando:
+DEBUG: 22/05/2012 11:35:28 AM Listener: Esperando comando:
+DEBUG: 22/05/2012 11:35:28 AM Sender: Esperando comando:
+DEBUG: 22/05/2012 11:35:28 AM Sender: Esperando comando:
+DEBUG: 22/05/2012 11:35:28 AM Listener: Comando leido: 0
+DEBUG: 22/05/2012 11:35:28 AM Listener: Comando leido: 0
+DEBUG: 22/05/2012 11:35:28 AM Send NowUTF: ok
+DEBUG: 22/05/2012 11:35:28 AM Send NowUTF: ok
+INFO : 22/05/2012 11:35:28 AM El cliente dice: RedHiMatch_V0.1>>Hola!
+INFO : 22/05/2012 11:35:28 AM El cliente dice: RedHiMatch_V0.1>>Hola!
+INFO : 22/05/2012 11:35:28 AM Id del cliente: [BB]9100553648138
+INFO : 22/05/2012 11:35:28 AM Id del cliente: [BB]9100553648138
+INFO : 22/05/2012 11:35:28 AM Alias: Polo
+INFO : 22/05/2012 11:35:28 AM Alias: Polo
+INFO : 22/05/2012 11:35:28 AM Sexo: 0
+INFO : 22/05/2012 11:35:28 AM Sexo: 0
+INFO : 22/05/2012 11:35:28 AM Descripcion: 
+INFO : 22/05/2012 11:35:28 AM Descripcion: 
+DEBUG: 22/05/2012 11:35:28 AM Llamando a serverDistpatcher.
+DEBUG: 22/05/2012 11:35:28 AM Llamando a serverDistpatcher.
+DEBUG: 22/05/2012 11:35:28 AM serverDistpatcher. readInit().
+DEBUG: 22/05/2012 11:35:28 AM serverDistpatcher. readInit().
+DEBUG: 22/05/2012 11:35:28 AM ++++++++++++++++++readInit(). Agregando Cliente Nuevo:
+DEBUG: 22/05/2012 11:35:28 AM ++++++++++++++++++readInit(). Agregando Cliente Nuevo:
+DEBUG: 22/05/2012 11:35:28 AM enviarUsuariosCercanos().
+DEBUG: 22/05/2012 11:35:28 AM enviarUsuariosCercanos().
+DEBUG: 22/05/2012 11:35:28 AM Comparando BSSI: C1: Chala: , C2: Polo: 
+DEBUG: 22/05/2012 11:35:28 AM Comparando BSSI: C1: Chala: , C2: Polo: 
+DEBUG: 22/05/2012 11:35:28 AM Clientes cercanos BSSI: Chala - Polo
+DEBUG: 22/05/2012 11:35:28 AM Clientes cercanos BSSI: Chala - Polo
+DEBUG: 22/05/2012 11:35:28 AM Consultado bloqueo en BD, idNuevo:[BB]9100553648138, idBuscado:[BB]8500553648138
+DEBUG: 22/05/2012 11:35:28 AM Consultado bloqueo en BD, idNuevo:[BB]9100553648138, idBuscado:[BB]8500553648138
+DEBUG: 22/05/2012 11:35:34 AM enviarUsuariosCercanos(). Filtrando clientes.
+DEBUG: 22/05/2012 11:35:34 AM enviarUsuariosCercanos(). Filtrando clientes.
+DEBUG: 22/05/2012 11:35:34 AM enviarUsuariosCercanos(). Sincronizando cliente: Polo
+DEBUG: 22/05/2012 11:35:34 AM enviarUsuariosCercanos(). Sincronizando cliente: Polo
+DEBUG: 22/05/2012 11:35:34 AM enviarUsuariosCercanos(). Se encontraron 1 cercanos a Polo
+DEBUG: 22/05/2012 11:35:34 AM enviarUsuariosCercanos(). Se encontraron 1 cercanos a Polo
+DEBUG: 22/05/2012 11:35:34 AM ################ Num comandos en cola: 1
+DEBUG: 22/05/2012 11:35:34 AM ################ Num comandos en cola: 1
+DEBUG: 22/05/2012 11:35:34 AM ################ Num comandos en cola: 2
+DEBUG: 22/05/2012 11:35:34 AM ################ Num comandos en cola: 2
+DEBUG: 22/05/2012 11:35:34 AM enviarUsuariosCercanos(). Sincronizando cliente FINALIZADO: Polo
+DEBUG: 22/05/2012 11:35:34 AM enviarUsuariosCercanos(). Sincronizando cliente FINALIZADO: Polo
+DEBUG: 22/05/2012 11:35:34 AM enviarInfoAClientesCercanos. Total clientes: 1, clientes cercanos: 1
+DEBUG: 22/05/2012 11:35:34 AM enviarInfoAClientesCercanos. Total clientes: 1, clientes cercanos: 1
+DEBUG: 22/05/2012 11:35:34 AM Sender: Comando leido: 112
+DEBUG: 22/05/2012 11:35:34 AM Sender: Comando leido: 112
+DEBUG: 22/05/2012 11:35:34 AM enviarInfoAClientesCercanos(). Sincronizando cliente. ADD Cliente: Chala
+DEBUG: 22/05/2012 11:35:34 AM enviarInfoAClientesCercanos(). Sincronizando cliente. ADD Cliente: Chala
+DEBUG: 22/05/2012 11:35:34 AM ################ Num comandos en cola: 1
+DEBUG: 22/05/2012 11:35:34 AM ################ Num comandos en cola: 1
+DEBUG: 22/05/2012 11:35:34 AM enviarInfoAClientesCercanos(). Sincronizando cliente FINALIZADO. ADD Cliente. Chala
+DEBUG: 22/05/2012 11:35:34 AM enviarInfoAClientesCercanos(). Sincronizando cliente FINALIZADO. ADD Cliente. Chala
+DEBUG: 22/05/2012 11:35:34 AM Listener: Esperando comando:
+DEBUG: 22/05/2012 11:35:34 AM Listener: Esperando comando:
+DEBUG: 22/05/2012 11:35:34 AM Enviando Short. Id: [BB]9100553648138, valor: 1
+DEBUG: 22/05/2012 11:35:34 AM Enviando Short. Id: [BB]9100553648138, valor: 1
+DEBUG: 22/05/2012 11:35:34 AM Sender: Esperando comando:
+DEBUG: 22/05/2012 11:35:34 AM Sender: Esperando comando:
+DEBUG: 22/05/2012 11:35:34 AM Sender: Comando leido: 110
+DEBUG: 22/05/2012 11:35:34 AM Sender: Comando leido: 110
+DEBUG: 22/05/2012 11:35:34 AM Alias: PoloCliente Id: [BB]9100553648138, msj: Chala|[BB]8500553648138|
+DEBUG: 22/05/2012 11:35:34 AM Alias: PoloCliente Id: [BB]9100553648138, msj: Chala|[BB]8500553648138|
+DEBUG: 22/05/2012 11:35:34 AM Enviando Long. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 11:35:34 AM Enviando Long. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 11:35:34 AM Alias: PoloCliente Id: [BB]9100553648138, msj: 
+DEBUG: 22/05/2012 11:35:34 AM Alias: PoloCliente Id: [BB]9100553648138, msj: 
+DEBUG: 22/05/2012 11:35:34 AM Enviando Float. Id: [BB]9100553648138, valor: 0.0
+DEBUG: 22/05/2012 11:35:34 AM Enviando Float. Id: [BB]9100553648138, valor: 0.0
+DEBUG: 22/05/2012 11:35:34 AM Enviando Float. Id: [BB]9100553648138, valor: 0.0
+DEBUG: 22/05/2012 11:35:34 AM Enviando Float. Id: [BB]9100553648138, valor: 0.0
+DEBUG: 22/05/2012 11:35:34 AM Enviando Byte. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 11:35:34 AM Enviando Byte. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 11:35:34 AM Enviando Byte. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 11:35:34 AM Enviando Byte. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 11:35:34 AM Sender: Comando leido: 4
+DEBUG: 22/05/2012 11:35:34 AM Sender: Comando leido: 4
+DEBUG: 22/05/2012 11:35:34 AM Enviando Byte. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 11:35:34 AM Enviando Byte. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 11:35:34 AM Comando Id: [BB]8500553648138, comando: 4
+DEBUG: 22/05/2012 11:35:34 AM Comando Id: [BB]8500553648138, comando: 4
+DEBUG: 22/05/2012 11:35:34 AM Enviando Byte. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 11:35:34 AM Enviando Byte. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 11:35:34 AM Alias: ChalaCliente Id: [BB]8500553648138, msj: Polo|[BB]9100553648138|
+DEBUG: 22/05/2012 11:35:34 AM Alias: ChalaCliente Id: [BB]8500553648138, msj: Polo|[BB]9100553648138|
+DEBUG: 22/05/2012 11:35:34 AM Enviando Long. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 11:35:34 AM Enviando Long. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 11:35:34 AM Enviando Int. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 11:35:34 AM Enviando Int. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 11:35:34 AM Enviando Int. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 11:35:34 AM Enviando Int. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 11:35:34 AM Enviando Int. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 11:35:34 AM Enviando Int. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 11:35:34 AM Enviando Int. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 11:35:34 AM Enviando Int. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 11:35:34 AM Alias: ChalaCliente Id: [BB]8500553648138, msj: 
+DEBUG: 22/05/2012 11:35:34 AM Alias: ChalaCliente Id: [BB]8500553648138, msj: 
+DEBUG: 22/05/2012 11:35:34 AM Enviando Float. Id: [BB]8500553648138, valor: 0.0
+DEBUG: 22/05/2012 11:35:34 AM Enviando Float. Id: [BB]8500553648138, valor: 0.0
+DEBUG: 22/05/2012 11:35:34 AM Enviando Float. Id: [BB]8500553648138, valor: 0.0
+DEBUG: 22/05/2012 11:35:34 AM Enviando Float. Id: [BB]8500553648138, valor: 0.0
+DEBUG: 22/05/2012 11:35:34 AM Enviando Byte. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 11:35:34 AM Enviando Byte. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 11:35:34 AM Enviando Byte. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 11:35:34 AM Enviando Byte. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 11:35:34 AM Enviando Byte. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 11:35:34 AM Enviando Byte. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 11:35:34 AM Enviando Byte. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 11:35:34 AM Enviando Byte. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 11:35:34 AM Enviando Byte. Id: [BB]9100553648138, valor: 18
+DEBUG: 22/05/2012 11:35:34 AM Enviando Byte. Id: [BB]9100553648138, valor: 18
+DEBUG: 22/05/2012 11:35:34 AM Enviando Byte. Id: [BB]9100553648138, valor: 1
+DEBUG: 22/05/2012 11:35:34 AM Enviando Byte. Id: [BB]9100553648138, valor: 1
+DEBUG: 22/05/2012 11:35:34 AM Enviando Int. Id: [BB]9100553648138, valor: 1
+DEBUG: 22/05/2012 11:35:34 AM Enviando Int. Id: [BB]9100553648138, valor: 1
+DEBUG: 22/05/2012 11:35:34 AM Enviando Int. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 11:35:34 AM Enviando Int. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 11:35:34 AM Enviando Int. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 11:35:34 AM Enviando Int. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 11:35:34 AM Enviando Int. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 11:35:34 AM Enviando Int. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 11:35:34 AM Enviando Int. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 11:35:34 AM Enviando Int. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 11:35:34 AM Cliente Id: [BB]9100553648138, msj: [B@1049d3
+DEBUG: 22/05/2012 11:35:34 AM Cliente Id: [BB]9100553648138, msj: [B@1049d3
+DEBUG: 22/05/2012 11:35:34 AM Enviando Byte. Id: [BB]8500553648138, valor: 40
+DEBUG: 22/05/2012 11:35:34 AM Enviando Byte. Id: [BB]8500553648138, valor: 40
+DEBUG: 22/05/2012 11:35:34 AM Enviando Byte. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 11:35:34 AM Enviando Byte. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 11:35:34 AM Sender: Esperando comando:
+DEBUG: 22/05/2012 11:35:34 AM Sender: Esperando comando:
+DEBUG: 22/05/2012 11:35:34 AM Enviando Int. Id: [BB]8500553648138, valor: 1
+DEBUG: 22/05/2012 11:35:34 AM Enviando Int. Id: [BB]8500553648138, valor: 1
+DEBUG: 22/05/2012 11:35:34 AM Cliente Id: [BB]8500553648138, msj: [B@15ed659
+DEBUG: 22/05/2012 11:35:34 AM Cliente Id: [BB]8500553648138, msj: [B@15ed659
+DEBUG: 22/05/2012 11:35:34 AM Sender: Esperando comando:
+DEBUG: 22/05/2012 11:35:34 AM Sender: Esperando comando:
+INFO : 22/05/2012 11:53:05 AM Bienvenido al servidor de HiMatch.
+ Iniciado en el puerto: 453, maximo número de clientes: 100
+INFO : 22/05/2012 11:53:05 AM Bienvenido al servidor de HiMatch.
+ Iniciado en el puerto: 453, maximo número de clientes: 100
+INFO : 22/05/2012 11:53:05 AM Eperando conexiones...
+-----------------------------------------------------
+INFO : 22/05/2012 11:53:05 AM Eperando conexiones...
+-----------------------------------------------------
+INFO : 22/05/2012 11:53:07 AM Eperando conexiones...
+-----------------------------------------------------
+INFO : 22/05/2012 11:53:07 AM Eperando conexiones...
+-----------------------------------------------------
+DEBUG: 22/05/2012 11:53:07 AM Listener: Esperando comando:
+DEBUG: 22/05/2012 11:53:07 AM Listener: Esperando comando:
+DEBUG: 22/05/2012 11:53:07 AM Listener: Comando leido: 0
+DEBUG: 22/05/2012 11:53:07 AM Listener: Comando leido: 0
+DEBUG: 22/05/2012 11:53:07 AM Send NowUTF: ok
+DEBUG: 22/05/2012 11:53:07 AM Send NowUTF: ok
+INFO : 22/05/2012 11:53:07 AM El cliente dice: RedHiMatch_V0.1>>Hola!
+INFO : 22/05/2012 11:53:07 AM El cliente dice: RedHiMatch_V0.1>>Hola!
+DEBUG: 22/05/2012 11:53:07 AM Sender: Esperando comando:
+DEBUG: 22/05/2012 11:53:07 AM Sender: Esperando comando:
+INFO : 22/05/2012 11:53:07 AM Id del cliente: [BB]8500553648138
+INFO : 22/05/2012 11:53:07 AM Id del cliente: [BB]8500553648138
+INFO : 22/05/2012 11:53:07 AM Alias: Chala
+INFO : 22/05/2012 11:53:07 AM Alias: Chala
+INFO : 22/05/2012 11:53:07 AM Sexo: 1
+INFO : 22/05/2012 11:53:07 AM Sexo: 1
+INFO : 22/05/2012 11:53:07 AM Descripcion: 
+INFO : 22/05/2012 11:53:07 AM Descripcion: 
+DEBUG: 22/05/2012 11:53:07 AM Llamando a serverDistpatcher.
+DEBUG: 22/05/2012 11:53:07 AM Llamando a serverDistpatcher.
+DEBUG: 22/05/2012 11:53:07 AM serverDistpatcher. readInit().
+DEBUG: 22/05/2012 11:53:07 AM serverDistpatcher. readInit().
+DEBUG: 22/05/2012 11:53:07 AM ++++++++++++++++++readInit(). Agregando Cliente Nuevo:
+DEBUG: 22/05/2012 11:53:07 AM ++++++++++++++++++readInit(). Agregando Cliente Nuevo:
+DEBUG: 22/05/2012 11:53:07 AM enviarUsuariosCercanos().
+DEBUG: 22/05/2012 11:53:07 AM enviarUsuariosCercanos().
+DEBUG: 22/05/2012 11:53:07 AM enviarUsuariosCercanos(). Filtrando clientes.
+DEBUG: 22/05/2012 11:53:07 AM enviarUsuariosCercanos(). Filtrando clientes.
+DEBUG: 22/05/2012 11:53:07 AM enviarUsuariosCercanos(). Sincronizando cliente: Chala
+DEBUG: 22/05/2012 11:53:07 AM enviarUsuariosCercanos(). Sincronizando cliente: Chala
+DEBUG: 22/05/2012 11:53:07 AM enviarUsuariosCercanos(). No se encontraron clientes cercanos a: Chala
+DEBUG: 22/05/2012 11:53:07 AM enviarUsuariosCercanos(). No se encontraron clientes cercanos a: Chala
+DEBUG: 22/05/2012 11:53:07 AM ################ Num comandos en cola: 1
+DEBUG: 22/05/2012 11:53:07 AM ################ Num comandos en cola: 1
+DEBUG: 22/05/2012 11:53:07 AM enviarUsuariosCercanos(). Sincronizando cliente FINALIZADO: Chala
+DEBUG: 22/05/2012 11:53:07 AM enviarUsuariosCercanos(). Sincronizando cliente FINALIZADO: Chala
+DEBUG: 22/05/2012 11:53:07 AM enviarInfoAClientesCercanos. Total clientes: 0, clientes cercanos: 0
+DEBUG: 22/05/2012 11:53:07 AM enviarInfoAClientesCercanos. Total clientes: 0, clientes cercanos: 0
+DEBUG: 22/05/2012 11:53:07 AM Sender: Comando leido: 112
+DEBUG: 22/05/2012 11:53:07 AM Sender: Comando leido: 112
+DEBUG: 22/05/2012 11:53:07 AM Listener: Esperando comando:
+DEBUG: 22/05/2012 11:53:07 AM Listener: Esperando comando:
+DEBUG: 22/05/2012 11:53:07 AM Enviando Short. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 11:53:07 AM Enviando Short. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 11:53:07 AM Sender: Esperando comando:
+DEBUG: 22/05/2012 11:53:07 AM Sender: Esperando comando:
+INFO : 22/05/2012 11:53:09 AM Eperando conexiones...
+-----------------------------------------------------
+INFO : 22/05/2012 11:53:09 AM Eperando conexiones...
+-----------------------------------------------------
+DEBUG: 22/05/2012 11:53:09 AM Listener: Esperando comando:
+DEBUG: 22/05/2012 11:53:09 AM Listener: Esperando comando:
+DEBUG: 22/05/2012 11:53:09 AM Sender: Esperando comando:
+DEBUG: 22/05/2012 11:53:09 AM Sender: Esperando comando:
+DEBUG: 22/05/2012 11:53:09 AM Listener: Comando leido: 0
+DEBUG: 22/05/2012 11:53:09 AM Listener: Comando leido: 0
+DEBUG: 22/05/2012 11:53:09 AM Send NowUTF: ok
+DEBUG: 22/05/2012 11:53:09 AM Send NowUTF: ok
+INFO : 22/05/2012 11:53:09 AM El cliente dice: RedHiMatch_V0.1>>Hola!
+INFO : 22/05/2012 11:53:09 AM El cliente dice: RedHiMatch_V0.1>>Hola!
+INFO : 22/05/2012 11:53:09 AM Id del cliente: [BB]9100553648138
+INFO : 22/05/2012 11:53:09 AM Id del cliente: [BB]9100553648138
+INFO : 22/05/2012 11:53:09 AM Alias: Polo
+INFO : 22/05/2012 11:53:09 AM Alias: Polo
+INFO : 22/05/2012 11:53:09 AM Sexo: 0
+INFO : 22/05/2012 11:53:09 AM Sexo: 0
+INFO : 22/05/2012 11:53:09 AM Descripcion: 
+INFO : 22/05/2012 11:53:09 AM Descripcion: 
+DEBUG: 22/05/2012 11:53:09 AM Llamando a serverDistpatcher.
+DEBUG: 22/05/2012 11:53:09 AM Llamando a serverDistpatcher.
+DEBUG: 22/05/2012 11:53:09 AM serverDistpatcher. readInit().
+DEBUG: 22/05/2012 11:53:09 AM serverDistpatcher. readInit().
+DEBUG: 22/05/2012 11:53:09 AM ++++++++++++++++++readInit(). Agregando Cliente Nuevo:
+DEBUG: 22/05/2012 11:53:09 AM ++++++++++++++++++readInit(). Agregando Cliente Nuevo:
+DEBUG: 22/05/2012 11:53:09 AM enviarUsuariosCercanos().
+DEBUG: 22/05/2012 11:53:09 AM enviarUsuariosCercanos().
+DEBUG: 22/05/2012 11:53:09 AM Comparando BSSI: C1: Chala: , C2: Polo: 
+DEBUG: 22/05/2012 11:53:09 AM Comparando BSSI: C1: Chala: , C2: Polo: 
+DEBUG: 22/05/2012 11:53:09 AM Clientes cercanos BSSI: Chala - Polo
+DEBUG: 22/05/2012 11:53:09 AM Clientes cercanos BSSI: Chala - Polo
+DEBUG: 22/05/2012 11:53:09 AM Consultado bloqueo en BD, idNuevo:[BB]9100553648138, idBuscado:[BB]8500553648138
+DEBUG: 22/05/2012 11:53:09 AM Consultado bloqueo en BD, idNuevo:[BB]9100553648138, idBuscado:[BB]8500553648138
+DEBUG: 22/05/2012 11:53:22 AM enviarUsuariosCercanos(). Filtrando clientes.
+DEBUG: 22/05/2012 11:53:22 AM enviarUsuariosCercanos(). Filtrando clientes.
+DEBUG: 22/05/2012 11:53:22 AM enviarUsuariosCercanos(). Sincronizando cliente: Polo
+DEBUG: 22/05/2012 11:53:22 AM enviarUsuariosCercanos(). Sincronizando cliente: Polo
+DEBUG: 22/05/2012 11:53:22 AM enviarUsuariosCercanos(). Se encontraron 1 cercanos a Polo
+DEBUG: 22/05/2012 11:53:22 AM enviarUsuariosCercanos(). Se encontraron 1 cercanos a Polo
+DEBUG: 22/05/2012 11:53:22 AM ################ Num comandos en cola: 1
+DEBUG: 22/05/2012 11:53:22 AM ################ Num comandos en cola: 1
+DEBUG: 22/05/2012 11:53:22 AM ################ Num comandos en cola: 2
+DEBUG: 22/05/2012 11:53:22 AM ################ Num comandos en cola: 2
+DEBUG: 22/05/2012 11:53:22 AM enviarUsuariosCercanos(). Sincronizando cliente FINALIZADO: Polo
+DEBUG: 22/05/2012 11:53:22 AM enviarUsuariosCercanos(). Sincronizando cliente FINALIZADO: Polo
+DEBUG: 22/05/2012 11:53:22 AM enviarInfoAClientesCercanos. Total clientes: 1, clientes cercanos: 1
+DEBUG: 22/05/2012 11:53:22 AM enviarInfoAClientesCercanos. Total clientes: 1, clientes cercanos: 1
+DEBUG: 22/05/2012 11:53:22 AM Sender: Comando leido: 112
+DEBUG: 22/05/2012 11:53:22 AM Sender: Comando leido: 112
+DEBUG: 22/05/2012 11:53:22 AM enviarInfoAClientesCercanos(). Sincronizando cliente. ADD Cliente: Chala
+DEBUG: 22/05/2012 11:53:22 AM enviarInfoAClientesCercanos(). Sincronizando cliente. ADD Cliente: Chala
+DEBUG: 22/05/2012 11:53:22 AM ################ Num comandos en cola: 1
+DEBUG: 22/05/2012 11:53:22 AM ################ Num comandos en cola: 1
+DEBUG: 22/05/2012 11:53:22 AM enviarInfoAClientesCercanos(). Sincronizando cliente FINALIZADO. ADD Cliente. Chala
+DEBUG: 22/05/2012 11:53:22 AM enviarInfoAClientesCercanos(). Sincronizando cliente FINALIZADO. ADD Cliente. Chala
+DEBUG: 22/05/2012 11:53:22 AM Sender: Comando leido: 4
+DEBUG: 22/05/2012 11:53:22 AM Sender: Comando leido: 4
+DEBUG: 22/05/2012 11:53:22 AM Enviando Short. Id: [BB]9100553648138, valor: 1
+DEBUG: 22/05/2012 11:53:22 AM Enviando Short. Id: [BB]9100553648138, valor: 1
+DEBUG: 22/05/2012 11:53:22 AM Sender: Esperando comando:
+DEBUG: 22/05/2012 11:53:22 AM Sender: Esperando comando:
+DEBUG: 22/05/2012 11:53:22 AM Sender: Comando leido: 110
+DEBUG: 22/05/2012 11:53:22 AM Sender: Comando leido: 110
+DEBUG: 22/05/2012 11:53:22 AM Comando Id: [BB]8500553648138, comando: 4
+DEBUG: 22/05/2012 11:53:22 AM Comando Id: [BB]8500553648138, comando: 4
+DEBUG: 22/05/2012 11:53:22 AM Alias: ChalaCliente Id: [BB]8500553648138, msj: Polo|[BB]9100553648138|
+DEBUG: 22/05/2012 11:53:22 AM Alias: ChalaCliente Id: [BB]8500553648138, msj: Polo|[BB]9100553648138|
+DEBUG: 22/05/2012 11:53:22 AM Enviando Long. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 11:53:22 AM Enviando Long. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 11:53:22 AM Alias: ChalaCliente Id: [BB]8500553648138, msj: 
+DEBUG: 22/05/2012 11:53:22 AM Alias: ChalaCliente Id: [BB]8500553648138, msj: 
+DEBUG: 22/05/2012 11:53:22 AM Enviando Float. Id: [BB]8500553648138, valor: 0.0
+DEBUG: 22/05/2012 11:53:22 AM Enviando Float. Id: [BB]8500553648138, valor: 0.0
+DEBUG: 22/05/2012 11:53:22 AM Enviando Float. Id: [BB]8500553648138, valor: 0.0
+DEBUG: 22/05/2012 11:53:22 AM Enviando Float. Id: [BB]8500553648138, valor: 0.0
+DEBUG: 22/05/2012 11:53:22 AM Enviando Byte. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 11:53:22 AM Enviando Byte. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 11:53:22 AM Alias: PoloCliente Id: [BB]9100553648138, msj: Chala|[BB]8500553648138|
+DEBUG: 22/05/2012 11:53:22 AM Alias: PoloCliente Id: [BB]9100553648138, msj: Chala|[BB]8500553648138|
+DEBUG: 22/05/2012 11:53:22 AM Enviando Byte. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 11:53:22 AM Enviando Byte. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 11:53:22 AM Enviando Long. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 11:53:22 AM Enviando Long. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 11:53:22 AM Enviando Byte. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 11:53:22 AM Enviando Byte. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 11:53:22 AM Enviando Byte. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 11:53:22 AM Enviando Byte. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 11:53:22 AM Alias: PoloCliente Id: [BB]9100553648138, msj: 
+DEBUG: 22/05/2012 11:53:22 AM Alias: PoloCliente Id: [BB]9100553648138, msj: 
+DEBUG: 22/05/2012 11:53:22 AM Enviando Int. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 11:53:22 AM Enviando Int. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 11:53:22 AM Enviando Float. Id: [BB]9100553648138, valor: 0.0
+DEBUG: 22/05/2012 11:53:22 AM Enviando Float. Id: [BB]9100553648138, valor: 0.0
+DEBUG: 22/05/2012 11:53:22 AM Enviando Int. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 11:53:22 AM Enviando Int. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 11:53:22 AM Enviando Float. Id: [BB]9100553648138, valor: 0.0
+DEBUG: 22/05/2012 11:53:22 AM Enviando Float. Id: [BB]9100553648138, valor: 0.0
+DEBUG: 22/05/2012 11:53:22 AM Enviando Int. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 11:53:22 AM Enviando Int. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 11:53:22 AM Enviando Byte. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 11:53:22 AM Enviando Byte. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 11:53:22 AM Enviando Byte. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 11:53:22 AM Enviando Byte. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 11:53:22 AM Enviando Int. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 11:53:22 AM Enviando Int. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 11:53:22 AM Enviando Byte. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 11:53:22 AM Enviando Byte. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 11:53:22 AM Enviando Byte. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 11:53:22 AM Enviando Byte. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 11:53:22 AM Enviando Int. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 11:53:22 AM Enviando Int. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 11:53:22 AM Enviando Byte. Id: [BB]8500553648138, valor: 40
+DEBUG: 22/05/2012 11:53:22 AM Enviando Byte. Id: [BB]8500553648138, valor: 40
+DEBUG: 22/05/2012 11:53:22 AM Enviando Byte. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 11:53:22 AM Enviando Byte. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 11:53:22 AM Enviando Int. Id: [BB]8500553648138, valor: 1
+DEBUG: 22/05/2012 11:53:22 AM Enviando Int. Id: [BB]8500553648138, valor: 1
+DEBUG: 22/05/2012 11:53:22 AM Listener: Esperando comando:
+DEBUG: 22/05/2012 11:53:22 AM Listener: Esperando comando:
+DEBUG: 22/05/2012 11:53:22 AM Cliente Id: [BB]8500553648138, msj: [B@12aea3e
+DEBUG: 22/05/2012 11:53:22 AM Cliente Id: [BB]8500553648138, msj: [B@12aea3e
+DEBUG: 22/05/2012 11:53:22 AM Enviando Int. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 11:53:22 AM Enviando Int. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 11:53:22 AM Sender: Esperando comando:
+DEBUG: 22/05/2012 11:53:22 AM Sender: Esperando comando:
+DEBUG: 22/05/2012 11:53:22 AM Enviando Int. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 11:53:22 AM Enviando Int. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 11:53:22 AM Enviando Int. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 11:53:22 AM Enviando Int. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 11:53:22 AM Enviando Byte. Id: [BB]9100553648138, valor: 18
+DEBUG: 22/05/2012 11:53:22 AM Enviando Byte. Id: [BB]9100553648138, valor: 18
+DEBUG: 22/05/2012 11:53:22 AM Enviando Byte. Id: [BB]9100553648138, valor: 1
+DEBUG: 22/05/2012 11:53:22 AM Enviando Byte. Id: [BB]9100553648138, valor: 1
+DEBUG: 22/05/2012 11:53:22 AM Enviando Int. Id: [BB]9100553648138, valor: 1
+DEBUG: 22/05/2012 11:53:22 AM Enviando Int. Id: [BB]9100553648138, valor: 1
+DEBUG: 22/05/2012 11:53:22 AM Cliente Id: [BB]9100553648138, msj: [B@78bc3b
+DEBUG: 22/05/2012 11:53:22 AM Cliente Id: [BB]9100553648138, msj: [B@78bc3b
+DEBUG: 22/05/2012 11:53:22 AM Sender: Esperando comando:
+DEBUG: 22/05/2012 11:53:22 AM Sender: Esperando comando:
+INFO : 22/05/2012 12:01:45 PM Bienvenido al servidor de HiMatch.
+ Iniciado en el puerto: 453, maximo número de clientes: 100
+INFO : 22/05/2012 12:01:45 PM Bienvenido al servidor de HiMatch.
+ Iniciado en el puerto: 453, maximo número de clientes: 100
+INFO : 22/05/2012 12:01:45 PM Eperando conexiones...
+-----------------------------------------------------
+INFO : 22/05/2012 12:01:45 PM Eperando conexiones...
+-----------------------------------------------------
+INFO : 22/05/2012 12:01:46 PM Eperando conexiones...
+-----------------------------------------------------
+INFO : 22/05/2012 12:01:46 PM Eperando conexiones...
+-----------------------------------------------------
+DEBUG: 22/05/2012 12:01:46 PM Listener: Esperando comando:
+DEBUG: 22/05/2012 12:01:46 PM Listener: Esperando comando:
+DEBUG: 22/05/2012 12:01:46 PM Listener: Comando leido: 0
+DEBUG: 22/05/2012 12:01:46 PM Listener: Comando leido: 0
+DEBUG: 22/05/2012 12:01:46 PM Send NowUTF: ok
+DEBUG: 22/05/2012 12:01:46 PM Send NowUTF: ok
+INFO : 22/05/2012 12:01:46 PM El cliente dice: RedHiMatch_V0.1>>Hola!
+INFO : 22/05/2012 12:01:46 PM El cliente dice: RedHiMatch_V0.1>>Hola!
+DEBUG: 22/05/2012 12:01:46 PM Sender: Esperando comando:
+DEBUG: 22/05/2012 12:01:46 PM Sender: Esperando comando:
+INFO : 22/05/2012 12:01:46 PM Id del cliente: [BB]9100553648138
+INFO : 22/05/2012 12:01:46 PM Id del cliente: [BB]9100553648138
+INFO : 22/05/2012 12:01:46 PM Alias: Polo
+INFO : 22/05/2012 12:01:46 PM Alias: Polo
+INFO : 22/05/2012 12:01:46 PM Sexo: 0
+INFO : 22/05/2012 12:01:46 PM Sexo: 0
+INFO : 22/05/2012 12:01:46 PM Descripcion: 
+INFO : 22/05/2012 12:01:46 PM Descripcion: 
+DEBUG: 22/05/2012 12:01:46 PM Llamando a serverDistpatcher.
+DEBUG: 22/05/2012 12:01:46 PM Llamando a serverDistpatcher.
+DEBUG: 22/05/2012 12:01:46 PM serverDistpatcher. readInit().
+DEBUG: 22/05/2012 12:01:46 PM serverDistpatcher. readInit().
+DEBUG: 22/05/2012 12:01:46 PM ++++++++++++++++++readInit(). Agregando Cliente Nuevo:
+DEBUG: 22/05/2012 12:01:46 PM ++++++++++++++++++readInit(). Agregando Cliente Nuevo:
+DEBUG: 22/05/2012 12:01:46 PM enviarUsuariosCercanos().
+DEBUG: 22/05/2012 12:01:46 PM enviarUsuariosCercanos().
+DEBUG: 22/05/2012 12:01:46 PM enviarUsuariosCercanos(). Filtrando clientes.
+DEBUG: 22/05/2012 12:01:46 PM enviarUsuariosCercanos(). Filtrando clientes.
+DEBUG: 22/05/2012 12:01:46 PM enviarUsuariosCercanos(). Sincronizando cliente: Polo
+DEBUG: 22/05/2012 12:01:46 PM enviarUsuariosCercanos(). Sincronizando cliente: Polo
+DEBUG: 22/05/2012 12:01:46 PM enviarUsuariosCercanos(). No se encontraron clientes cercanos a: Polo
+DEBUG: 22/05/2012 12:01:46 PM enviarUsuariosCercanos(). No se encontraron clientes cercanos a: Polo
+DEBUG: 22/05/2012 12:01:46 PM ################ Num comandos en cola: 1
+DEBUG: 22/05/2012 12:01:46 PM ################ Num comandos en cola: 1
+DEBUG: 22/05/2012 12:01:46 PM enviarUsuariosCercanos(). Sincronizando cliente FINALIZADO: Polo
+DEBUG: 22/05/2012 12:01:46 PM enviarUsuariosCercanos(). Sincronizando cliente FINALIZADO: Polo
+DEBUG: 22/05/2012 12:01:46 PM enviarInfoAClientesCercanos. Total clientes: 0, clientes cercanos: 0
+DEBUG: 22/05/2012 12:01:46 PM enviarInfoAClientesCercanos. Total clientes: 0, clientes cercanos: 0
+DEBUG: 22/05/2012 12:01:46 PM Listener: Esperando comando:
+DEBUG: 22/05/2012 12:01:46 PM Listener: Esperando comando:
+DEBUG: 22/05/2012 12:01:46 PM Sender: Comando leido: 112
+DEBUG: 22/05/2012 12:01:46 PM Sender: Comando leido: 112
+DEBUG: 22/05/2012 12:01:46 PM Enviando Short. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 12:01:46 PM Enviando Short. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 12:01:46 PM Sender: Esperando comando:
+DEBUG: 22/05/2012 12:01:46 PM Sender: Esperando comando:
+INFO : 22/05/2012 12:01:49 PM Eperando conexiones...
+-----------------------------------------------------
+INFO : 22/05/2012 12:01:49 PM Eperando conexiones...
+-----------------------------------------------------
+DEBUG: 22/05/2012 12:01:49 PM Sender: Esperando comando:
+DEBUG: 22/05/2012 12:01:49 PM Sender: Esperando comando:
+DEBUG: 22/05/2012 12:01:49 PM Listener: Esperando comando:
+DEBUG: 22/05/2012 12:01:49 PM Listener: Esperando comando:
+DEBUG: 22/05/2012 12:01:49 PM Listener: Comando leido: 0
+DEBUG: 22/05/2012 12:01:49 PM Listener: Comando leido: 0
+DEBUG: 22/05/2012 12:01:49 PM Send NowUTF: ok
+DEBUG: 22/05/2012 12:01:49 PM Send NowUTF: ok
+INFO : 22/05/2012 12:01:49 PM El cliente dice: RedHiMatch_V0.1>>Hola!
+INFO : 22/05/2012 12:01:49 PM El cliente dice: RedHiMatch_V0.1>>Hola!
+INFO : 22/05/2012 12:01:49 PM Id del cliente: [BB]8500553648138
+INFO : 22/05/2012 12:01:49 PM Id del cliente: [BB]8500553648138
+INFO : 22/05/2012 12:01:49 PM Alias: Chala
+INFO : 22/05/2012 12:01:49 PM Alias: Chala
+INFO : 22/05/2012 12:01:49 PM Sexo: 1
+INFO : 22/05/2012 12:01:49 PM Sexo: 1
+INFO : 22/05/2012 12:01:49 PM Descripcion: 
+INFO : 22/05/2012 12:01:49 PM Descripcion: 
+DEBUG: 22/05/2012 12:01:49 PM Llamando a serverDistpatcher.
+DEBUG: 22/05/2012 12:01:49 PM Llamando a serverDistpatcher.
+DEBUG: 22/05/2012 12:01:49 PM serverDistpatcher. readInit().
+DEBUG: 22/05/2012 12:01:49 PM serverDistpatcher. readInit().
+DEBUG: 22/05/2012 12:01:49 PM ++++++++++++++++++readInit(). Agregando Cliente Nuevo:
+DEBUG: 22/05/2012 12:01:49 PM ++++++++++++++++++readInit(). Agregando Cliente Nuevo:
+DEBUG: 22/05/2012 12:01:49 PM enviarUsuariosCercanos().
+DEBUG: 22/05/2012 12:01:49 PM enviarUsuariosCercanos().
+DEBUG: 22/05/2012 12:01:49 PM Comparando BSSI: C1: Polo: , C2: Chala: 
+DEBUG: 22/05/2012 12:01:49 PM Comparando BSSI: C1: Polo: , C2: Chala: 
+DEBUG: 22/05/2012 12:01:49 PM Clientes cercanos BSSI: Polo - Chala
+DEBUG: 22/05/2012 12:01:49 PM Clientes cercanos BSSI: Polo - Chala
+DEBUG: 22/05/2012 12:01:49 PM Consultado bloqueo en BD, idNuevo:[BB]8500553648138, idBuscado:[BB]9100553648138
+DEBUG: 22/05/2012 12:01:49 PM Consultado bloqueo en BD, idNuevo:[BB]8500553648138, idBuscado:[BB]9100553648138
+ERROR: 22/05/2012 12:01:51 PM Initial SessionFactory creation failed.
+java.lang.NoClassDefFoundError: com/mchange/v2/log/MLog
+	at com.mchange.v2.c3p0.DataSources.<clinit>(DataSources.java:59)
+	at org.hibernate.connection.C3P0ConnectionProvider.configure(C3P0ConnectionProvider.java:154)
+	at org.hibernate.connection.ConnectionProviderFactory.newConnectionProvider(ConnectionProviderFactory.java:124)
+	at org.hibernate.connection.ConnectionProviderFactory.newConnectionProvider(ConnectionProviderFactory.java:56)
+	at org.hibernate.cfg.SettingsFactory.createConnectionProvider(SettingsFactory.java:414)
+	at org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:62)
+	at org.hibernate.cfg.Configuration.buildSettings(Configuration.java:2009)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1292)
+	at org.seratic.enterprise.server.himatch.data.util.HibernateUtil.getSessionFactory(HibernateUtil.java:43)
+	at org.seratic.enterprise.server.himatch.data.util.HibernateUtil.currentSession(HibernateUtil.java:55)
+	at org.seratic.enterprise.server.himatch.facade.FacadeHiMatch.getBloqueado(FacadeHiMatch.java:85)
+	at org.seratic.enterprise.server.himatch.com.ServerDispatcher.isClienteBloqueado(ServerDispatcher.java:156)
+	at org.seratic.enterprise.server.himatch.com.ServerDispatcher.getClientesCercanos(ServerDispatcher.java:168)
+	at org.seratic.enterprise.server.himatch.com.ServerDispatcher.enviarUsuariosCercanos(ServerDispatcher.java:212)
+	at org.seratic.enterprise.server.himatch.com.ServerDispatcher.readInit(ServerDispatcher.java:261)
+	at org.seratic.enterprise.server.himatch.com.ClientListener.readInit(ClientListener.java:130)
+	at org.seratic.enterprise.server.himatch.com.ClientListener.run(ClientListener.java:62)
+Caused by: java.lang.ClassNotFoundException: com.mchange.v2.log.MLog
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	... 17 more
+ERROR: 22/05/2012 12:01:51 PM Initial SessionFactory creation failed.
+java.lang.NoClassDefFoundError: com/mchange/v2/log/MLog
+	at com.mchange.v2.c3p0.DataSources.<clinit>(DataSources.java:59)
+	at org.hibernate.connection.C3P0ConnectionProvider.configure(C3P0ConnectionProvider.java:154)
+	at org.hibernate.connection.ConnectionProviderFactory.newConnectionProvider(ConnectionProviderFactory.java:124)
+	at org.hibernate.connection.ConnectionProviderFactory.newConnectionProvider(ConnectionProviderFactory.java:56)
+	at org.hibernate.cfg.SettingsFactory.createConnectionProvider(SettingsFactory.java:414)
+	at org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:62)
+	at org.hibernate.cfg.Configuration.buildSettings(Configuration.java:2009)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1292)
+	at org.seratic.enterprise.server.himatch.data.util.HibernateUtil.getSessionFactory(HibernateUtil.java:43)
+	at org.seratic.enterprise.server.himatch.data.util.HibernateUtil.currentSession(HibernateUtil.java:55)
+	at org.seratic.enterprise.server.himatch.facade.FacadeHiMatch.getBloqueado(FacadeHiMatch.java:85)
+	at org.seratic.enterprise.server.himatch.com.ServerDispatcher.isClienteBloqueado(ServerDispatcher.java:156)
+	at org.seratic.enterprise.server.himatch.com.ServerDispatcher.getClientesCercanos(ServerDispatcher.java:168)
+	at org.seratic.enterprise.server.himatch.com.ServerDispatcher.enviarUsuariosCercanos(ServerDispatcher.java:212)
+	at org.seratic.enterprise.server.himatch.com.ServerDispatcher.readInit(ServerDispatcher.java:261)
+	at org.seratic.enterprise.server.himatch.com.ClientListener.readInit(ClientListener.java:130)
+	at org.seratic.enterprise.server.himatch.com.ClientListener.run(ClientListener.java:62)
+Caused by: java.lang.ClassNotFoundException: com.mchange.v2.log.MLog
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	... 17 more
+INFO : 22/05/2012 12:04:15 PM Bienvenido al servidor de HiMatch.
+ Iniciado en el puerto: 453, maximo número de clientes: 100
+INFO : 22/05/2012 12:04:15 PM Bienvenido al servidor de HiMatch.
+ Iniciado en el puerto: 453, maximo número de clientes: 100
+INFO : 22/05/2012 12:04:15 PM Eperando conexiones...
+-----------------------------------------------------
+INFO : 22/05/2012 12:04:15 PM Eperando conexiones...
+-----------------------------------------------------
+INFO : 22/05/2012 12:04:19 PM Eperando conexiones...
+-----------------------------------------------------
+INFO : 22/05/2012 12:04:19 PM Eperando conexiones...
+-----------------------------------------------------
+DEBUG: 22/05/2012 12:04:19 PM Sender: Esperando comando:
+DEBUG: 22/05/2012 12:04:19 PM Sender: Esperando comando:
+DEBUG: 22/05/2012 12:04:19 PM Listener: Esperando comando:
+DEBUG: 22/05/2012 12:04:19 PM Listener: Esperando comando:
+DEBUG: 22/05/2012 12:04:19 PM Listener: Comando leido: 0
+DEBUG: 22/05/2012 12:04:19 PM Listener: Comando leido: 0
+DEBUG: 22/05/2012 12:04:19 PM Send NowUTF: ok
+DEBUG: 22/05/2012 12:04:19 PM Send NowUTF: ok
+INFO : 22/05/2012 12:04:19 PM El cliente dice: RedHiMatch_V0.1>>Hola!
+INFO : 22/05/2012 12:04:19 PM El cliente dice: RedHiMatch_V0.1>>Hola!
+INFO : 22/05/2012 12:04:19 PM Id del cliente: [BB]8500553648138
+INFO : 22/05/2012 12:04:19 PM Id del cliente: [BB]8500553648138
+INFO : 22/05/2012 12:04:19 PM Alias: Chala
+INFO : 22/05/2012 12:04:19 PM Alias: Chala
+INFO : 22/05/2012 12:04:19 PM Sexo: 1
+INFO : 22/05/2012 12:04:19 PM Sexo: 1
+INFO : 22/05/2012 12:04:19 PM Descripcion: 
+INFO : 22/05/2012 12:04:19 PM Descripcion: 
+DEBUG: 22/05/2012 12:04:19 PM Llamando a serverDistpatcher.
+DEBUG: 22/05/2012 12:04:19 PM Llamando a serverDistpatcher.
+DEBUG: 22/05/2012 12:04:19 PM serverDistpatcher. readInit().
+DEBUG: 22/05/2012 12:04:19 PM serverDistpatcher. readInit().
+DEBUG: 22/05/2012 12:04:19 PM ++++++++++++++++++readInit(). Agregando Cliente Nuevo:
+DEBUG: 22/05/2012 12:04:19 PM ++++++++++++++++++readInit(). Agregando Cliente Nuevo:
+DEBUG: 22/05/2012 12:04:19 PM enviarUsuariosCercanos().
+DEBUG: 22/05/2012 12:04:19 PM enviarUsuariosCercanos().
+DEBUG: 22/05/2012 12:04:19 PM enviarUsuariosCercanos(). Filtrando clientes.
+DEBUG: 22/05/2012 12:04:19 PM enviarUsuariosCercanos(). Filtrando clientes.
+DEBUG: 22/05/2012 12:04:19 PM enviarUsuariosCercanos(). Sincronizando cliente: Chala
+DEBUG: 22/05/2012 12:04:19 PM enviarUsuariosCercanos(). Sincronizando cliente: Chala
+DEBUG: 22/05/2012 12:04:19 PM enviarUsuariosCercanos(). No se encontraron clientes cercanos a: Chala
+DEBUG: 22/05/2012 12:04:19 PM enviarUsuariosCercanos(). No se encontraron clientes cercanos a: Chala
+DEBUG: 22/05/2012 12:04:19 PM ################ Num comandos en cola: 1
+DEBUG: 22/05/2012 12:04:19 PM ################ Num comandos en cola: 1
+DEBUG: 22/05/2012 12:04:19 PM enviarUsuariosCercanos(). Sincronizando cliente FINALIZADO: Chala
+DEBUG: 22/05/2012 12:04:19 PM enviarUsuariosCercanos(). Sincronizando cliente FINALIZADO: Chala
+DEBUG: 22/05/2012 12:04:19 PM enviarInfoAClientesCercanos. Total clientes: 0, clientes cercanos: 0
+DEBUG: 22/05/2012 12:04:19 PM enviarInfoAClientesCercanos. Total clientes: 0, clientes cercanos: 0
+DEBUG: 22/05/2012 12:04:19 PM Listener: Esperando comando:
+DEBUG: 22/05/2012 12:04:19 PM Listener: Esperando comando:
+DEBUG: 22/05/2012 12:04:19 PM Sender: Comando leido: 112
+DEBUG: 22/05/2012 12:04:19 PM Sender: Comando leido: 112
+DEBUG: 22/05/2012 12:04:19 PM Enviando Short. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 12:04:19 PM Enviando Short. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 12:04:19 PM Sender: Esperando comando:
+DEBUG: 22/05/2012 12:04:19 PM Sender: Esperando comando:
+INFO : 22/05/2012 12:04:20 PM Eperando conexiones...
+-----------------------------------------------------
+INFO : 22/05/2012 12:04:20 PM Eperando conexiones...
+-----------------------------------------------------
+DEBUG: 22/05/2012 12:04:20 PM Sender: Esperando comando:
+DEBUG: 22/05/2012 12:04:20 PM Sender: Esperando comando:
+DEBUG: 22/05/2012 12:04:20 PM Listener: Esperando comando:
+DEBUG: 22/05/2012 12:04:20 PM Listener: Esperando comando:
+DEBUG: 22/05/2012 12:04:20 PM Listener: Comando leido: 0
+DEBUG: 22/05/2012 12:04:20 PM Listener: Comando leido: 0
+DEBUG: 22/05/2012 12:04:20 PM Send NowUTF: ok
+DEBUG: 22/05/2012 12:04:20 PM Send NowUTF: ok
+INFO : 22/05/2012 12:04:20 PM El cliente dice: RedHiMatch_V0.1>>Hola!
+INFO : 22/05/2012 12:04:20 PM El cliente dice: RedHiMatch_V0.1>>Hola!
+INFO : 22/05/2012 12:04:20 PM Id del cliente: [BB]9100553648138
+INFO : 22/05/2012 12:04:20 PM Id del cliente: [BB]9100553648138
+INFO : 22/05/2012 12:04:20 PM Alias: Polo
+INFO : 22/05/2012 12:04:20 PM Alias: Polo
+INFO : 22/05/2012 12:04:20 PM Sexo: 0
+INFO : 22/05/2012 12:04:20 PM Sexo: 0
+INFO : 22/05/2012 12:04:20 PM Descripcion: 
+INFO : 22/05/2012 12:04:20 PM Descripcion: 
+DEBUG: 22/05/2012 12:04:20 PM Llamando a serverDistpatcher.
+DEBUG: 22/05/2012 12:04:20 PM Llamando a serverDistpatcher.
+DEBUG: 22/05/2012 12:04:20 PM serverDistpatcher. readInit().
+DEBUG: 22/05/2012 12:04:20 PM serverDistpatcher. readInit().
+DEBUG: 22/05/2012 12:04:20 PM ++++++++++++++++++readInit(). Agregando Cliente Nuevo:
+DEBUG: 22/05/2012 12:04:20 PM ++++++++++++++++++readInit(). Agregando Cliente Nuevo:
+DEBUG: 22/05/2012 12:04:20 PM enviarUsuariosCercanos().
+DEBUG: 22/05/2012 12:04:20 PM enviarUsuariosCercanos().
+DEBUG: 22/05/2012 12:04:20 PM Comparando BSSI: C1: Chala: , C2: Polo: 
+DEBUG: 22/05/2012 12:04:20 PM Comparando BSSI: C1: Chala: , C2: Polo: 
+DEBUG: 22/05/2012 12:04:20 PM Clientes cercanos BSSI: Chala - Polo
+DEBUG: 22/05/2012 12:04:20 PM Clientes cercanos BSSI: Chala - Polo
+DEBUG: 22/05/2012 12:04:20 PM Consultado bloqueo en BD, idNuevo:[BB]9100553648138, idBuscado:[BB]8500553648138
+DEBUG: 22/05/2012 12:04:20 PM Consultado bloqueo en BD, idNuevo:[BB]9100553648138, idBuscado:[BB]8500553648138
+DEBUG: 22/05/2012 12:04:22 PM enviarUsuariosCercanos(). Filtrando clientes.
+DEBUG: 22/05/2012 12:04:22 PM enviarUsuariosCercanos(). Filtrando clientes.
+DEBUG: 22/05/2012 12:04:22 PM enviarUsuariosCercanos(). Sincronizando cliente: Polo
+DEBUG: 22/05/2012 12:04:22 PM enviarUsuariosCercanos(). Sincronizando cliente: Polo
+DEBUG: 22/05/2012 12:04:22 PM enviarUsuariosCercanos(). Se encontraron 1 cercanos a Polo
+DEBUG: 22/05/2012 12:04:22 PM enviarUsuariosCercanos(). Se encontraron 1 cercanos a Polo
+DEBUG: 22/05/2012 12:04:22 PM ################ Num comandos en cola: 1
+DEBUG: 22/05/2012 12:04:22 PM ################ Num comandos en cola: 1
+DEBUG: 22/05/2012 12:04:22 PM ################ Num comandos en cola: 2
+DEBUG: 22/05/2012 12:04:22 PM ################ Num comandos en cola: 2
+DEBUG: 22/05/2012 12:04:22 PM enviarUsuariosCercanos(). Sincronizando cliente FINALIZADO: Polo
+DEBUG: 22/05/2012 12:04:22 PM enviarUsuariosCercanos(). Sincronizando cliente FINALIZADO: Polo
+DEBUG: 22/05/2012 12:04:22 PM enviarInfoAClientesCercanos. Total clientes: 1, clientes cercanos: 1
+DEBUG: 22/05/2012 12:04:22 PM enviarInfoAClientesCercanos. Total clientes: 1, clientes cercanos: 1
+DEBUG: 22/05/2012 12:04:22 PM Sender: Comando leido: 112
+DEBUG: 22/05/2012 12:04:22 PM Sender: Comando leido: 112
+DEBUG: 22/05/2012 12:04:22 PM Enviando Short. Id: [BB]9100553648138, valor: 1
+DEBUG: 22/05/2012 12:04:22 PM Enviando Short. Id: [BB]9100553648138, valor: 1
+DEBUG: 22/05/2012 12:04:22 PM Sender: Esperando comando:
+DEBUG: 22/05/2012 12:04:22 PM Sender: Esperando comando:
+DEBUG: 22/05/2012 12:04:22 PM Sender: Comando leido: 110
+DEBUG: 22/05/2012 12:04:22 PM Sender: Comando leido: 110
+DEBUG: 22/05/2012 12:04:22 PM Alias: PoloCliente Id: [BB]9100553648138, msj: Chala|[BB]8500553648138|
+DEBUG: 22/05/2012 12:04:22 PM Alias: PoloCliente Id: [BB]9100553648138, msj: Chala|[BB]8500553648138|
+DEBUG: 22/05/2012 12:04:22 PM enviarInfoAClientesCercanos(). Sincronizando cliente. ADD Cliente: Chala
+DEBUG: 22/05/2012 12:04:22 PM enviarInfoAClientesCercanos(). Sincronizando cliente. ADD Cliente: Chala
+DEBUG: 22/05/2012 12:04:22 PM Enviando Long. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 12:04:22 PM Enviando Long. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 12:04:22 PM ################ Num comandos en cola: 1
+DEBUG: 22/05/2012 12:04:22 PM ################ Num comandos en cola: 1
+DEBUG: 22/05/2012 12:04:22 PM Alias: PoloCliente Id: [BB]9100553648138, msj: 
+DEBUG: 22/05/2012 12:04:22 PM Alias: PoloCliente Id: [BB]9100553648138, msj: 
+DEBUG: 22/05/2012 12:04:22 PM Enviando Float. Id: [BB]9100553648138, valor: 0.0
+DEBUG: 22/05/2012 12:04:22 PM Enviando Float. Id: [BB]9100553648138, valor: 0.0
+DEBUG: 22/05/2012 12:04:22 PM Enviando Float. Id: [BB]9100553648138, valor: 0.0
+DEBUG: 22/05/2012 12:04:22 PM Enviando Float. Id: [BB]9100553648138, valor: 0.0
+DEBUG: 22/05/2012 12:04:22 PM Enviando Byte. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 12:04:22 PM Enviando Byte. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 12:04:22 PM enviarInfoAClientesCercanos(). Sincronizando cliente FINALIZADO. ADD Cliente. Chala
+DEBUG: 22/05/2012 12:04:22 PM enviarInfoAClientesCercanos(). Sincronizando cliente FINALIZADO. ADD Cliente. Chala
+DEBUG: 22/05/2012 12:04:22 PM Listener: Esperando comando:
+DEBUG: 22/05/2012 12:04:22 PM Listener: Esperando comando:
+DEBUG: 22/05/2012 12:04:22 PM Enviando Byte. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 12:04:22 PM Enviando Byte. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 12:04:22 PM Enviando Byte. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 12:04:22 PM Enviando Byte. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 12:04:22 PM Sender: Comando leido: 4
+DEBUG: 22/05/2012 12:04:22 PM Sender: Comando leido: 4
+DEBUG: 22/05/2012 12:04:22 PM Comando Id: [BB]8500553648138, comando: 4
+DEBUG: 22/05/2012 12:04:22 PM Comando Id: [BB]8500553648138, comando: 4
+DEBUG: 22/05/2012 12:04:22 PM Alias: ChalaCliente Id: [BB]8500553648138, msj: Polo|[BB]9100553648138|
+DEBUG: 22/05/2012 12:04:22 PM Alias: ChalaCliente Id: [BB]8500553648138, msj: Polo|[BB]9100553648138|
+DEBUG: 22/05/2012 12:04:22 PM Enviando Long. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 12:04:22 PM Enviando Long. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 12:04:22 PM Alias: ChalaCliente Id: [BB]8500553648138, msj: 
+DEBUG: 22/05/2012 12:04:22 PM Alias: ChalaCliente Id: [BB]8500553648138, msj: 
+DEBUG: 22/05/2012 12:04:22 PM Enviando Float. Id: [BB]8500553648138, valor: 0.0
+DEBUG: 22/05/2012 12:04:22 PM Enviando Float. Id: [BB]8500553648138, valor: 0.0
+DEBUG: 22/05/2012 12:04:22 PM Enviando Byte. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 12:04:22 PM Enviando Byte. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 12:04:22 PM Enviando Float. Id: [BB]8500553648138, valor: 0.0
+DEBUG: 22/05/2012 12:04:22 PM Enviando Float. Id: [BB]8500553648138, valor: 0.0
+DEBUG: 22/05/2012 12:04:22 PM Enviando Int. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 12:04:22 PM Enviando Int. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 12:04:22 PM Enviando Byte. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 12:04:22 PM Enviando Byte. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 12:04:22 PM Enviando Int. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 12:04:22 PM Enviando Int. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 12:04:22 PM Enviando Byte. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 12:04:22 PM Enviando Byte. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 12:04:22 PM Enviando Byte. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 12:04:22 PM Enviando Byte. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 12:04:22 PM Enviando Int. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 12:04:22 PM Enviando Int. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 12:04:22 PM Enviando Byte. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 12:04:22 PM Enviando Byte. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 12:04:22 PM Enviando Int. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 12:04:22 PM Enviando Int. Id: [BB]9100553648138, valor: 0
+DEBUG: 22/05/2012 12:04:22 PM Enviando Int. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 12:04:22 PM Enviando Int. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 12:04:22 PM Enviando Int. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 12:04:22 PM Enviando Int. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 12:04:22 PM Enviando Int. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 12:04:22 PM Enviando Int. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 12:04:22 PM Enviando Int. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 12:04:22 PM Enviando Int. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 12:04:22 PM Enviando Byte. Id: [BB]8500553648138, valor: 40
+DEBUG: 22/05/2012 12:04:22 PM Enviando Byte. Id: [BB]8500553648138, valor: 40
+DEBUG: 22/05/2012 12:04:22 PM Enviando Byte. Id: [BB]9100553648138, valor: 18
+DEBUG: 22/05/2012 12:04:22 PM Enviando Byte. Id: [BB]9100553648138, valor: 18
+DEBUG: 22/05/2012 12:04:22 PM Enviando Byte. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 12:04:22 PM Enviando Byte. Id: [BB]8500553648138, valor: 0
+DEBUG: 22/05/2012 12:04:22 PM Enviando Byte. Id: [BB]9100553648138, valor: 1
+DEBUG: 22/05/2012 12:04:22 PM Enviando Byte. Id: [BB]9100553648138, valor: 1
+DEBUG: 22/05/2012 12:04:22 PM Enviando Int. Id: [BB]8500553648138, valor: 1
+DEBUG: 22/05/2012 12:04:22 PM Enviando Int. Id: [BB]8500553648138, valor: 1
+DEBUG: 22/05/2012 12:04:22 PM Cliente Id: [BB]8500553648138, msj: [B@da2cef
+DEBUG: 22/05/2012 12:04:22 PM Cliente Id: [BB]8500553648138, msj: [B@da2cef
+DEBUG: 22/05/2012 12:04:22 PM Sender: Esperando comando:
+DEBUG: 22/05/2012 12:04:22 PM Sender: Esperando comando:
+DEBUG: 22/05/2012 12:04:22 PM Enviando Int. Id: [BB]9100553648138, valor: 1
+DEBUG: 22/05/2012 12:04:22 PM Enviando Int. Id: [BB]9100553648138, valor: 1
+DEBUG: 22/05/2012 12:04:22 PM Cliente Id: [BB]9100553648138, msj: [B@1bc16f0
+DEBUG: 22/05/2012 12:04:22 PM Cliente Id: [BB]9100553648138, msj: [B@1bc16f0
+DEBUG: 22/05/2012 12:04:22 PM Sender: Esperando comando:
+DEBUG: 22/05/2012 12:04:22 PM Sender: Esperando comando:
+ERROR: 22/05/2012 12:04:57 PM Error en el Listener: Connection reset
+ERROR: 22/05/2012 12:04:57 PM Error en el Listener: Connection reset
+DEBUG: 22/05/2012 12:04:57 PM deleteClient().
+DEBUG: 22/05/2012 12:04:57 PM deleteClient().
+ERROR: 22/05/2012 12:04:57 PM Error en el Sender: null
+ERROR: 22/05/2012 12:04:57 PM Error en el Sender: null
+DEBUG: 22/05/2012 12:04:57 PM notificaRemocionCliente(): Chala
+DEBUG: 22/05/2012 12:04:57 PM notificaRemocionCliente(): Chala
+DEBUG: 22/05/2012 12:04:57 PM Comparando BSSI: C1: Polo: , C2: Chala: 
+DEBUG: 22/05/2012 12:04:57 PM Comparando BSSI: C1: Polo: , C2: Chala: 
+DEBUG: 22/05/2012 12:04:59 PM Clientes cercanos BSSI: Polo - Chala
+DEBUG: 22/05/2012 12:04:59 PM Clientes cercanos BSSI: Polo - Chala
+DEBUG: 22/05/2012 12:04:59 PM notificaRemocionCliente(): Sincronizando cliente. Enviando a: Polo
+DEBUG: 22/05/2012 12:04:59 PM notificaRemocionCliente(): Sincronizando cliente. Enviando a: Polo
+DEBUG: 22/05/2012 12:04:59 PM ################ Num comandos en cola: 1
+DEBUG: 22/05/2012 12:04:59 PM ################ Num comandos en cola: 1
+DEBUG: 22/05/2012 12:04:59 PM notificaRemocionCliente(): Sincronizando cliente FINALIZADO. Enviando a: Polo
+DEBUG: 22/05/2012 12:04:59 PM notificaRemocionCliente(): Sincronizando cliente FINALIZADO. Enviando a: Polo
+DEBUG: 22/05/2012 12:04:59 PM ---------------removerCliente: FINALIZADO.
+DEBUG: 22/05/2012 12:04:59 PM ---------------removerCliente: FINALIZADO.
+DEBUG: 22/05/2012 12:04:59 PM Sender: Comando leido: 5
+DEBUG: 22/05/2012 12:04:59 PM Sender: Comando leido: 5
+DEBUG: 22/05/2012 12:04:59 PM Comando Id: [BB]9100553648138, comando: 5
+DEBUG: 22/05/2012 12:04:59 PM Comando Id: [BB]9100553648138, comando: 5
+DEBUG: 22/05/2012 12:04:59 PM Alias: PoloCliente Id: [BB]9100553648138, msj: [BB]8500553648138
+DEBUG: 22/05/2012 12:04:59 PM Alias: PoloCliente Id: [BB]9100553648138, msj: [BB]8500553648138
+DEBUG: 22/05/2012 12:04:59 PM Sender: Esperando comando:
+DEBUG: 22/05/2012 12:04:59 PM Sender: Esperando comando:
+ERROR: 22/05/2012 12:04:59 PM Error al parar el cliente: Socket is closed
+ERROR: 22/05/2012 12:04:59 PM Error al parar el cliente: Socket is closed
+DEBUG: 22/05/2012 12:04:59 PM deleteClient(). Removiendo de la lista
+DEBUG: 22/05/2012 12:04:59 PM deleteClient(). Removiendo de la lista
+DEBUG: 22/05/2012 12:04:59 PM reenviarClientes().
+DEBUG: 22/05/2012 12:04:59 PM reenviarClientes().
+INFO : 22/05/2012 12:04:59 PM ================Total clientes conectados: 1
+INFO : 22/05/2012 12:04:59 PM ================Total clientes conectados: 1
+INFO : 22/05/2012 12:04:59 PM Listener: Terminado el proceso del cliente: Chala
+INFO : 22/05/2012 12:04:59 PM Listener: Terminado el proceso del cliente: Chala
+DEBUG: 22/05/2012 12:04:59 PM deleteClient().
+DEBUG: 22/05/2012 12:04:59 PM deleteClient().
+INFO : 22/05/2012 12:04:59 PM ================Total clientes conectados: 1
+INFO : 22/05/2012 12:04:59 PM ================Total clientes conectados: 1
+DEBUG: 22/05/2012 12:04:59 PM Sender: Terminado el proceso de Sender del usuario 
+DEBUG: 22/05/2012 12:04:59 PM Sender: Terminado el proceso de Sender del usuario 
+ERROR: 22/05/2012 12:11:08 PM Error en el Listener: Connection reset
+ERROR: 22/05/2012 12:11:08 PM Error en el Listener: Connection reset
+DEBUG: 22/05/2012 12:11:08 PM deleteClient().
+DEBUG: 22/05/2012 12:11:08 PM deleteClient().
+DEBUG: 22/05/2012 12:11:08 PM notificaRemocionCliente(): Polo
+DEBUG: 22/05/2012 12:11:08 PM notificaRemocionCliente(): Polo
+DEBUG: 22/05/2012 12:11:08 PM ---------------removerCliente: FINALIZADO.
+DEBUG: 22/05/2012 12:11:08 PM ---------------removerCliente: FINALIZADO.
+ERROR: 22/05/2012 12:11:08 PM Error al parar el cliente: Socket is closed
+ERROR: 22/05/2012 12:11:08 PM Error al parar el cliente: Socket is closed
+DEBUG: 22/05/2012 12:11:08 PM deleteClient(). Removiendo de la lista
+DEBUG: 22/05/2012 12:11:08 PM deleteClient(). Removiendo de la lista
+DEBUG: 22/05/2012 12:11:08 PM reenviarClientes().
+DEBUG: 22/05/2012 12:11:08 PM reenviarClientes().
+INFO : 22/05/2012 12:11:08 PM ================Total clientes conectados: 0
+INFO : 22/05/2012 12:11:08 PM ================Total clientes conectados: 0
+INFO : 22/05/2012 12:11:08 PM Listener: Terminado el proceso del cliente: Polo
+INFO : 22/05/2012 12:11:08 PM Listener: Terminado el proceso del cliente: Polo
+ERROR: 22/05/2012 12:11:08 PM Error en el Sender: null
+ERROR: 22/05/2012 12:11:08 PM Error en el Sender: null
+DEBUG: 22/05/2012 12:11:08 PM deleteClient().
+DEBUG: 22/05/2012 12:11:08 PM deleteClient().
+INFO : 22/05/2012 12:11:08 PM ================Total clientes conectados: 0
+INFO : 22/05/2012 12:11:08 PM ================Total clientes conectados: 0
+DEBUG: 22/05/2012 12:11:08 PM Sender: Terminado el proceso de Sender del usuario 
+DEBUG: 22/05/2012 12:11:08 PM Sender: Terminado el proceso de Sender del usuario 
+INFO : 28/05/2012 01:35:10 PM Bienvenido al servidor de HiMatch.
+ Iniciado en el puerto: 453, maximo número de clientes: 100
+INFO : 28/05/2012 01:35:10 PM Bienvenido al servidor de HiMatch.
+ Iniciado en el puerto: 453, maximo número de clientes: 100
+INFO : 28/05/2012 01:35:10 PM Eperando conexiones...
+-----------------------------------------------------
+INFO : 28/05/2012 01:35:10 PM Eperando conexiones...
+-----------------------------------------------------
+INFO : 28/05/2012 01:36:19 PM Bienvenido al servidor de HiMatch.
+ Iniciado en el puerto: 453, maximo número de clientes: 100
+INFO : 28/05/2012 01:36:19 PM Bienvenido al servidor de HiMatch.
+ Iniciado en el puerto: 453, maximo número de clientes: 100
+INFO : 28/05/2012 01:36:19 PM Eperando conexiones...
+-----------------------------------------------------
+INFO : 28/05/2012 01:36:19 PM Eperando conexiones...
+-----------------------------------------------------

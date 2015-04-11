@@ -1,0 +1,151 @@
+package org.smartsoft.enterprise.server.buzzme.data;
+
+import java.io.Serializable;
+import java.util.ArrayList;
+
+/**
+ *
+ * @author alejandro.lozano
+ */
+public class ObjSerializado implements Serializable {
+
+    private static final long serialVersionUID = 7946873909012304710L;
+    private UsuarioSerial usuarioCliente;
+    private byte comando;
+    private boolean loginOk;
+    private ArrayList<UsuarioSerial> contactos;
+    private ArrayList<UsuarioSerial> contactosToAccept;
+    private String mensaje;
+    private short[] audio;    
+
+    public ObjSerializado() {
+    }
+
+    public ObjSerializado(String pin, byte comando) {
+        this.usuarioCliente = new UsuarioSerial(pin,null, (byte)0,"");
+        this.comando = comando;
+    }
+
+    public void registrar(String nick,String pwd) {
+        this.comando = Constantes.COMMAND_REGISTRAR;
+        this.setUsuarioCliente(new UsuarioSerial(null, nick, (byte)0,pwd));
+    }
+    
+    public void registrarPin(String pin) {
+        this.comando = Constantes.COMMAND_REGISTRAR;
+        this.setUsuarioCliente(new UsuarioSerial(pin, null, (byte)0,""));
+    }
+
+    public void ingresar(String pin,String pwd) {
+        this.comando = Constantes.COMMAND_INGRESAR;
+        this.setUsuarioCliente(new UsuarioSerial(pin, null, (byte)0,pwd));
+    }
+    
+    public void ingresar(ArrayList<UsuarioSerial> contactos, boolean loginOk) {
+        this.comando = Constantes.COMMAND_INGRESAR;
+        this.setContactos(contactos);
+        this.loginOk = loginOk;
+    }
+
+    public void addContacto(String pinContacto) {
+        this.comando = Constantes.COMMAND_ADD_CONTACTO;
+        this.setUsuarioCliente(new UsuarioSerial(pinContacto, null, (byte)0,""));
+    }
+
+    public void salir() {
+        this.comando = Constantes.COMMAND_SALIR;
+    }
+    
+    /******Gets and sets******/
+    public byte getComando() {
+        return comando;
+    }
+
+    public void setComando(byte comando) {
+        this.comando = comando;
+    }
+
+    /**
+     * @return the loginOk
+     */
+    public boolean isLoginOk() {
+        return loginOk;
+    }
+
+    /**
+     * @param loginOk the loginOk to set
+     */
+    public void setLoginOk(boolean loginOk) {
+        this.loginOk = loginOk;
+    }
+
+    /**
+     * @return the contactos
+     */
+    public ArrayList<UsuarioSerial> getContactos() {
+        return contactos;
+    }
+
+    /**
+     * @param contactos the contactos to set
+     */
+    public void setContactos(ArrayList<UsuarioSerial> contactos) {
+        this.contactos = contactos;
+    }
+
+    /**
+     * @return the usuarioCliente
+     */
+    public UsuarioSerial getUsuarioCliente() {
+        return usuarioCliente;
+    }
+
+    /**
+     * @param usuarioCliente the usuarioCliente to set
+     */
+    public void setUsuarioCliente(UsuarioSerial usuarioCliente) {
+        this.usuarioCliente = usuarioCliente;
+    }
+
+    /**
+     * @return the contactosToAccept
+     */
+    public ArrayList<UsuarioSerial> getContactosToAccept() {
+        return contactosToAccept;
+    }
+
+    /**
+     * @param contactosToAccept the contactosToAccept to set
+     */
+    public void setContactosToAccept(ArrayList<UsuarioSerial> contactosToAccept) {
+        this.contactosToAccept = contactosToAccept;
+    }
+
+    /**
+     * @return the mensaje
+     */
+    public String getMensaje() {
+        return mensaje;
+    }
+
+    /**
+     * @param mensaje the mensaje to set
+     */
+    public void setMensaje(String mensaje) {
+        this.mensaje = mensaje;
+    }
+
+    /**
+     * @return the audio
+     */
+    public short[] getAudio() {
+        return audio;
+    }
+
+    /**
+     * @param audio the audio to set
+     */
+    public void setAudio(short[] audio) {
+        this.audio = audio;
+    }
+}

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlChat"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/lyAbajo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btnAbandonar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Abandonar" />
+
+            <SeekBar
+                android:id="@+id/seekBar1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/btnAbandonar" />
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/editMensajeSend"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Escribe un mensaje" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/lyAbajo"
+        android:layout_alignParentTop="true" >
+
+        <org.smartsoft.movil.buzzme.gui.customs.LinearTouch
+            android:id="@+id/lytouch"
+            android:layout_width="30dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="#5858FA" />
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_toLeftOf="@id/lytouch" >
+            <LinearLayout
+                android:id="@+id/lyContentChat"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" 
+                android:orientation="vertical"
+                >
+                <org.smartsoft.movil.buzzme.gui.customs.TextViewCustom
+                    android:id="@+id/txtConsolaMsgs"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Consola de mensajes" 
+                    android:visibility="gone"
+                    />
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</RelativeLayout>

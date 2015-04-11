@@ -1,0 +1,132 @@
+package org.smartsoft.enterprise.server.buzzme.data;
+
+import java.io.Serializable;
+
+/**
+ *
+ * @author alejandro.lozano
+ */
+public class UsuarioSerial implements Serializable {
+    
+    private static final long serialVersionUID = -5140031950545884686L;
+    private String pin;
+    private String nick;
+    private byte estado;
+    private boolean  confirmado;
+    private String password;
+    private boolean bloqueado;
+
+    public UsuarioSerial() {
+    }
+
+       
+    public UsuarioSerial(String pin, String nick, byte online,String pwd) {
+        this.pin = pin;
+        this.nick = nick;
+        this.estado = online;
+        this.password =pwd;
+    }
+    
+    public UsuarioSerial(Usuario usuario) {
+        this(usuario.getPin(),usuario.getNick(), usuario.getEstado(),"");
+    }
+
+    public UsuarioSerial(Usuario usuario,boolean confirmado) {
+        this(usuario.getPin(),usuario.getNick(), usuario.getEstado(),"");
+        this.confirmado = confirmado;
+        this.password = "";        
+    }
+    
+    public UsuarioSerial(Usuario usuario,boolean confirmado, boolean bloqueado) {
+        this(usuario.getPin(),usuario.getNick(), usuario.getEstado(),"");
+        this.confirmado = confirmado;
+        this.bloqueado = bloqueado; 
+        this.password = "";        
+    }
+    
+           
+    /**
+     * @return the pin
+     */
+    public String getPin() {
+        return pin;
+    }
+
+    /**
+     * @param pin the pin to set
+     */
+    public void setPin(String pin) {
+        this.pin = pin;
+    }
+
+    /**
+     * @return the nick
+     */
+    public String getNick() {
+        return nick;
+    }
+
+    /**
+     * @param nick the nick to set
+     */
+    public void setNick(String nick) {
+        this.nick = nick;
+    }
+
+    /**
+     * @return the confirmado
+     */
+    public boolean isConfirmado() {
+        return confirmado;
+    }
+
+    /**
+     * @param confirmado the confirmado to set
+     */
+    public void setConfirmado(boolean confirmado) {
+        this.confirmado = confirmado;
+    }
+
+    /**
+     * @return the password
+     */
+    public String getPassword() {
+        return password;
+    }
+
+    /**
+     * @param password the password to set
+     */
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    /**
+     * @return the estado
+     */
+    public byte getEstado() {
+        return estado;
+    }
+
+    /**
+     * @param estado the estado to set
+     */
+    public void setEstado(byte estado) {
+        this.estado = estado;
+    }
+
+    /**
+     * @return the bloqueado
+     */
+    public boolean isBloqueado() {
+        return bloqueado;
+    }
+
+    /**
+     * @param bloqueado the bloqueado to set
+     */
+    public void setBloqueado(boolean bloqueado) {
+        this.bloqueado = bloqueado;
+    }
+        
+}

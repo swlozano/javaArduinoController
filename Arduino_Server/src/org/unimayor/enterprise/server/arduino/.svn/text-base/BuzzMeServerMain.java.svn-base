@@ -1,0 +1,23 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package org.smartsoft.enterprise.server.buzzme;
+
+import org.smartsoft.enterprise.server.buzzme.facade.FacadeBuzzMe;
+
+/**
+ *
+ * @author david.fernandez
+ */
+public class BuzzMeServerMain {
+
+
+    public static void main(String[] args) {
+//        FacadeBuzzMe facadeHiMatch = new FacadeBuzzMe();
+//        facadeHiMatch.getContactosToAccept("38");
+        //facadeHiMatch.registrarUsuario("Alejandro");
+        //facadeHiMatch.getContactos("8J0ZA5SL");
+        new ServidorBuzzMe().iniciar();
+    }
+}

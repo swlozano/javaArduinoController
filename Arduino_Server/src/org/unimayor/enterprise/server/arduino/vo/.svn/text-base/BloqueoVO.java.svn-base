@@ -1,0 +1,43 @@
+package org.smartsoft.enterprise.server.buzzme.vo;
+
+/**
+ *
+ * @author david.fernandez
+ */
+public class BloqueoVO {
+
+    private int id;
+    private String idmovilfuente;
+    private String idmovildestino;
+
+    public BloqueoVO(String idClienteFuente, String idClienteBloqueado) {
+        this.idmovilfuente=idClienteFuente;
+        this.idmovildestino=idClienteBloqueado;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getIdmovildestino() {
+        return idmovildestino;
+    }
+
+    public void setIdmovildestino(String idmovildestino) {
+        this.idmovildestino = idmovildestino;
+    }
+
+    public String getIdmovilfuente() {
+        return idmovilfuente;
+    }
+
+    public void setIdmovilfuente(String idmovilfuente) {
+        this.idmovilfuente = idmovilfuente;
+    }
+
+    
+}

@@ -1,0 +1,44 @@
+package org.smartsoft.enterprise.server.buzzme.vo;
+
+public class Localizacion {
+	private double latitud;
+	private double longitud;
+	private double altitud;
+
+    public Localizacion(String valor) {
+        String[] v=valor.split("\\|");
+        if (v==null || v.length<3)
+            return;
+        this.latitud=Double.parseDouble(v[0]);
+        this.longitud=Double.parseDouble(v[1]);
+        this.altitud=Double.parseDouble(v[2]);
+    }
+	public double getLatitud() {
+		return latitud;
+	}
+	public void setLatitud(double latitud) {
+		this.latitud = latitud;
+	}
+	public double getLongitud() {
+		return longitud;
+	}
+	public void setLongitud(double longitud) {
+		this.longitud = longitud;
+	}
+	public double getAltitud() {
+		return altitud;
+	}
+	public void setAltitud(double altitud) {
+		this.altitud = altitud;
+	}
+
+    @Override
+    public String toString() {
+        return "("+longitud+", "+latitud+", "+altitud+")";
+    }
+
+
+	
+	
+
+}

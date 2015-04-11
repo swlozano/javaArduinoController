@@ -1,0 +1,253 @@
+package org.smartsoft.enterprise.server.buzzme.vo;
+
+import java.io.DataInputStream;
+import java.io.IOException;
+
+/**
+ *
+ * @author david.fernandez
+ */
+public class ClienteInfo {
+    private String id;
+    private String alias;
+    private String descripcion;
+    private byte semaforo;
+    private byte sexo;
+    private String bssId;//Lista de puntos de acceso separado por comas.
+    private byte[] foto;
+    private Localizacion ubicacion;
+
+    //Lo nuevo:-------------------------
+    private long fechaNacimiento;
+    private String email;
+    private float estatura;
+    private float peso;
+
+    private byte miCuerpo;
+    private byte misOjos;
+    private byte misEstudios;
+    private byte misIdiomas;
+    private int miMusica;
+    private int misPeliculas;
+    private int miComidaFavorita;
+    private int misMascotaFavorita;
+    private int opcionPublico;
+    private final int puntaje;
+    //-----------------------------------
+
+    public ClienteInfo(DataInputStream is) throws IOException {
+        this.id=is.readUTF();
+        this.alias=is.readUTF();
+        this.bssId=is.readUTF();
+        this.ubicacion=new Localizacion(is.readUTF());
+        if (ubicacion.getLatitud()==0 && ubicacion.getLongitud()==0 && ubicacion.getAltitud()==0)
+            this.ubicacion=null;
+        this.semaforo=(byte) is.read();
+        this.sexo=(byte) is.read();
+        this.descripcion=is.readUTF();
+        fechaNacimiento=is.readLong();
+        email=is.readUTF();
+        estatura=is.readFloat();
+        peso=is.readFloat();
+        miCuerpo=(byte) is.read();
+        misOjos=(byte) is.read();
+        misEstudios=(byte) is.read();
+        misIdiomas=(byte) is.read();
+        miMusica=is.readInt();
+        misPeliculas=is.readInt();
+        miComidaFavorita=is.readInt();
+        misMascotaFavorita=is.readInt();
+        opcionPublico=is.readInt();
+        puntaje=is.readInt();
+        
+        this.foto=new byte[is.readInt()];
+        is.readFully(foto);
+    }
+
+    public String getAlias() {
+        return alias;
+    }
+
+    public void setAlias(String alias) {
+        this.alias = alias;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+	public byte getSemaforo() {
+		return semaforo;
+	}
+
+	public void setSemaforo(byte semaforo) {
+		this.semaforo = semaforo;
+	}
+
+	public byte getSexo() {
+		return sexo;
+	}
+
+	public void setSexo(byte sexo) {
+		this.sexo = sexo;
+	}
+
+	public String getBssId() {
+		return bssId;
+	}
+
+	public void setBssId(String bssId) {
+		this.bssId = bssId;
+	}
+
+	public byte[] getFoto() {
+		return foto;
+	}
+
+	public void setFoto(byte[] foto) {
+            if (foto.length <= 1) {
+                this.foto = null;
+            } else {
+                this.foto = foto;
+            }
+	}
+
+	public Localizacion getUbicacion() {
+		return ubicacion;
+	}
+
+	public void setUbicacion(Localizacion ubicacion) {
+		this.ubicacion = ubicacion;
+	}
+
+	public String getDescripcion() {
+		return descripcion;
+	}
+
+	public void setDescripcion(String descripcion) {
+		this.descripcion = descripcion;
+	}
+
+    public String toString() {
+        return alias+"|"+id+"|"+descripcion;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public float getEstatura() {
+        return estatura;
+    }
+
+    public void setEstatura(float estatura) {
+        this.estatura = estatura;
+    }
+
+    public long getFechaNacimiento() {
+        return fechaNacimiento;
+    }
+
+    public void setFechaNacimiento(long fechaNacimiento) {
+        this.fechaNacimiento = fechaNacimiento;
+    }
+
+    public int getMiComidaFavorita() {
+        return miComidaFavorita;
+    }
+
+    public void setMiComidaFavorita(int miComidaFavorita) {
+        this.miComidaFavorita = miComidaFavorita;
+    }
+
+    public byte getMiCuerpo() {
+        return miCuerpo;
+    }
+
+    public void setMiCuerpo(byte miCuerpo) {
+        this.miCuerpo = miCuerpo;
+    }
+
+    public int getMiMusica() {
+        return miMusica;
+    }
+
+    public void setMiMusica(int miMusica) {
+        this.miMusica = miMusica;
+    }
+
+    public byte getMisEstudios() {
+        return misEstudios;
+    }
+
+    public void setMisEstudios(byte misEstudios) {
+        this.misEstudios = misEstudios;
+    }
+
+    public byte getMisIdiomas() {
+        return misIdiomas;
+    }
+
+    public void setMisIdiomas(byte misIdiomas) {
+        this.misIdiomas = misIdiomas;
+    }
+
+    public int getMisMascotaFavorita() {
+        return misMascotaFavorita;
+    }
+
+    public void setMisMascotaFavorita(int misMascotaFavorita) {
+        this.misMascotaFavorita = misMascotaFavorita;
+    }
+
+    public byte getMisOjos() {
+        return misOjos;
+    }
+
+    public void setMisOjos(byte misOjos) {
+        this.misOjos = misOjos;
+    }
+
+    public int getMisPeliculas() {
+        return misPeliculas;
+    }
+
+    public void setMisPeliculas(int misPeliculas) {
+        this.misPeliculas = misPeliculas;
+    }
+
+    public float getPeso() {
+        return peso;
+    }
+
+    public void setPeso(float peso) {
+        this.peso = peso;
+    }
+
+    public int getOpcionPublico() {
+        return opcionPublico;
+    }
+
+    public void setOpcionPublico(int opcionPublico) {
+        this.opcionPublico = opcionPublico;
+    }
+
+    public boolean isOpcionPublico(int opcion) {
+        return (opcionPublico&opcion)==opcion;
+    }
+
+    public int getPuntaje() {
+        return puntaje;
+    }
+
+
+
+}

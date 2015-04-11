@@ -1,0 +1,29 @@
+hibernate.dialect: org.hibernate.dialect.MySQLInnoDBDialect
+hibernate.connection.url: jdbc:mysql://localhost/himatch
+hibernate.connection.driver_class: com.mysql.jdbc.Driver
+hibernate.connection.password:
+hibernate.connection.username: root
+hibernate.show_sql: true
+hibernate.format_sql:true
+hibernate.cache.use_query_cache:false
+hibernate.cache.use_second_level_cache:false
+hibernate.connection.release_mode: after_transaction
+hibernate.connection.provider_class: org.hibernate.connection.C3P0ConnectionProvider
+hibernate.c3p0.max_size: 20
+hibernate.c3p0.min_size: 5
+hibernate.c3p0.acquireRetryAttempts: 0
+hibernate.c3p0.acquireRetryDelay: 10000
+hibernate.c3p0.timeout: 18000
+hibernate.connection.pool_size: 10
+
+server.puerto: 453
+server.max_num_conexiones: 100
+
+himatch.distancia_maxima: -1
+himatch.altura_maxima: -1
+himatch.usarBaseDatos: true
+
+log.WRITE_FILE_ENABLE: true
+log.MAX_FILE_SIZE: 1MB
+log.LEVEL: DEBUG
+log.SHOW_CONSOLA: true

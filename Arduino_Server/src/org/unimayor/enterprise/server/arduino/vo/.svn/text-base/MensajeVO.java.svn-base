@@ -1,0 +1,55 @@
+package org.smartsoft.enterprise.server.buzzme.vo;
+
+import java.util.Date;
+
+/**
+ *
+ * @author david.fernandez
+ */
+public class MensajeVO {
+    private String aliasfuente;
+    private String aliasdestino;
+    private String mensaje;
+    private Date fecha;
+
+    public MensajeVO(String aliasfuente, String aliasdestino, String mensaje) {
+        this.aliasfuente = aliasfuente;
+        this.aliasdestino = aliasdestino;
+        this.mensaje = mensaje;
+    }
+    
+    public String getAliasdestino() {
+        return aliasdestino;
+    }
+
+    public void setAliasdestino(String aliasdestino) {
+        this.aliasdestino = aliasdestino;
+    }
+
+    public String getAliasfuente() {
+        return aliasfuente;
+    }
+
+    public void setAliasfuente(String aliasfuente) {
+        this.aliasfuente = aliasfuente;
+    }
+
+    public Date getFecha() {
+        return fecha;
+    }
+
+    public void setFecha(Date fecha) {
+        this.fecha = fecha;
+    }
+
+    public String getMensaje() {
+        return mensaje;
+    }
+
+    public void setMensaje(String mensaje) {
+        this.mensaje = mensaje;
+    }
+
+    
+
+}

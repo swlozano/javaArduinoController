@@ -1,0 +1,53 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package org.smartsoft.enterprise.server.buzzme;
+
+import java.io.IOException;
+import java.net.ServerSocket;
+import java.net.Socket;
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import org.smartsoft.enterprise.server.buzzme.com.ChatConexion;
+import org.smartsoft.enterprise.server.buzzme.facade.FacadeBuzzMe;
+
+/**
+ *
+ * @author alejandro.lozano
+ */
+public class ServidorBuzzMe extends Thread {
+
+    private ServerSocket socketServidor;
+    public final static int PUERTO_DEFECTO = 6500;
+    protected int puerto = PUERTO_DEFECTO;
+    public  ConcurrentHashMap<String, ChatConexion> clientesConectados;
+    public FacadeBuzzMe facade;
+    
+    public void iniciar() {
+        facade = new FacadeBuzzMe();
+        try {
+            socketServidor = new ServerSocket(puerto);
+        } catch (IOException ex) {
+            Logger.getLogger(ServidorBuzzMe.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        clientesConectados = new ConcurrentHashMap<String, ChatConexion>();
+        this.start();
+    }
+    
+    @Override
+    public void run() {
+        try {
+            while (true) {
+                System.out.println("Esperando Nuevo cliente");
+                Socket sockCliente = socketServidor.accept();
+                ChatConexion c = new ChatConexion(sockCliente, this);
+               // c.saludarCliente();
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}

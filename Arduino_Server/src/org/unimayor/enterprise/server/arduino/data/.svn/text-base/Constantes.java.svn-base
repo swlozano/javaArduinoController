@@ -1,0 +1,32 @@
+package org.smartsoft.enterprise.server.buzzme.data;
+
+/**
+ *
+ * @author alejandro.lozano
+ */
+public class Constantes {
+    
+    public static final byte COMMAND_WELCOME = 0;
+    public static final byte COMMAND_REGISTRAR = 1;
+    public static final byte COMMAND_INGRESAR = 2;
+    public static final byte COMMAND_ADD_CONTACTO = 3;
+    public static final byte COMMAND_USUARIO_CONECTADO = 4;
+    public static final byte COMMAND_USUARIO_DESCONECTADO = 5;
+    public static final byte COMMAND_SALIR = 6;
+    public static final byte COMMAND_ACCEPT_CONTACTO = 7;
+    public static final byte COMMAND_NEW_CONTACTS_ADD = 8;
+    public static final byte COMMAND_INI_CONVERSACION = 9;
+    public static final byte COMMAND_ACEPTAR_CHARLA = 10;
+    public static final byte COMMAND_CAMBIAR_ESTADO = 11;
+    public static final byte COMMAND_MENSAJE = 12;
+    public static final byte COMMAND_ABANDONAR_CHARLA = 13;
+    public static final byte COMMAND_BLOQUEAR = 14;
+    public static final byte COMMAND_AUDIO = 15;
+    public static final byte COMMAND_MSG_OK = 16;
+    
+    public static final byte ESTADO_DISPONIBLE=1;
+    public static final byte ESTADO_EN_CHARLA=2;
+    public static final byte ESTADO_NO_DISPONIBLE=3;
+    public static final byte ESTADO_DESCONECTADO=4;
+ 
+}

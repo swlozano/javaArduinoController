@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 28/06/2012 04:30:35 PM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class catalog="buzzmebd" name="org.smartsoft.enterprise.server.buzzme.data.Usuario" table="usuario">
+        <id name="pin" type="string">
+            <column length="10" name="PIN"/>
+            <generator class="assigned"/>
+        </id>
+        <property name="nick" type="string">
+            <column length="20" name="NICK"/>
+        </property>
+        <property name="password" type="string">
+            <column length="32" name="PASSWORD" not-null="true"/>
+        </property>
+        <property name="estado" type="java.lang.Byte">
+            <column name="ESTADO" />
+        </property>
+        <set inverse="true" name="contactos">
+            <key>
+                <column length="10" name="PIN_CONTACTO"/>
+            </key>
+            <one-to-many class="org.smartsoft.enterprise.server.buzzme.data.Contacto"/>
+        </set>
+    </class>
+</hibernate-mapping>

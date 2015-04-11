@@ -1,0 +1,626 @@
+package org.smartsoft.enterprise.server.buzzme.facade;
+
+import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+import java.util.Set;
+import org.apache.log4j.Logger;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+import org.hibernate.criterion.LogicalExpression;
+import org.hibernate.criterion.Restrictions;
+import org.hibernate.criterion.SimpleExpression;
+import org.smartsoft.enterprise.server.buzzme.data.Constantes;
+import org.smartsoft.enterprise.server.buzzme.data.Contacto;
+import org.smartsoft.enterprise.server.buzzme.data.Usuario;
+import org.smartsoft.enterprise.server.buzzme.data.UsuarioSerial;
+import org.smartsoft.enterprise.server.buzzme.data.util.HibernateUtil;
+
+/**
+ *
+ * @author david.fernandez
+ */
+public class FacadeBuzzMe {
+
+    private Logger log = Logger.getLogger("Aplicacion");
+    private final int longitudPin = 8;
+    private static final ThreadLocal SESSION_LOCAL = new ThreadLocal();
+    private static final SessionFactory SESSION_FACTORY = new Configuration().configure(File.separator + "org" + File.separator + "smartsoft" + File.separator + "enterprise" + File.separator + "server" + File.separator + "buzzme" + File.separator + "data" + File.separator + "util" + File.separator + "hibernate.cfg.xml").buildSessionFactory();
+
+    private Session getSession() {
+        Session session = (Session) SESSION_LOCAL.get();
+        if (session == null) {
+            session = SESSION_FACTORY.openSession();
+            SESSION_LOCAL.set(session);
+        }
+        return session;
+    }
+
+    private void begin() {
+        getSession().beginTransaction();
+    }
+
+    private void close() {
+        getSession().close();
+        SESSION_LOCAL.set(null);
+    }
+
+    private void commit() {
+        getSession().getTransaction().commit();
+    }
+
+    private void rollBack() {
+        if (getSession().getTransaction() != null) {
+            getSession().getTransaction().rollback();
+        }
+    }
+
+    /* public boolean addBloqueo(BloqueoVO bloqueo) {
+    boolean ok=false;
+    log.debug("Guardando a BD, bloqueo: ");
+    Session session;
+    Transaction transaction = null;
+    
+    transaction = null;
+    try {
+    session = HibernateUtil.currentSession();
+    transaction = session.beginTransaction();
+    Bloqueo b=(Bloqueo) session.createCriteria(Bloqueo.class).
+    add(Restrictions.eq("idmovilfuente", bloqueo.getIdmovilfuente())).
+    add(Restrictions.eq("idmovildestino", bloqueo.getIdmovildestino())).
+    uniqueResult();
+    if (b==null)
+    session.persist(new Bloqueo(bloqueo.getIdmovilfuente(), bloqueo.getIdmovildestino()));
+    transaction.commit();
+    ok=true;
+    } catch (Exception e) {
+    if (transaction != null) {
+    transaction.rollback();
+    }
+    log.error("Error inesperado al guardar Bloqueo...", e);
+    } finally {
+    HibernateUtil.closeSession();
+    }
+    return ok;
+    
+    }*/
+    public String registrarUsuario(UsuarioSerial usuarioSerial) {
+        String pin = generarPin(longitudPin);
+        try {
+            while (getUsuarioByPin(pin) != null) {
+                pin = generarPin(longitudPin);
+            }
+            Usuario usuario = new Usuario(pin, usuarioSerial.getNick(), usuarioSerial.getPassword());
+            usuario.setEstado(Constantes.ESTADO_DISPONIBLE);
+            begin();
+            getSession().save(usuario);
+            commit();
+        } catch (Exception e) {
+            pin = "";
+            e.printStackTrace();
+        } finally {
+            close();
+        }
+        return pin;
+    }
+
+    public boolean[] bloquearUsuario(String pin, String pinToBlock) {
+        boolean respuesta = false;
+        boolean bloqueado = false;
+        boolean[] res = {respuesta, bloqueado};
+        try {
+            begin();
+            Contacto contacto = (Contacto) getSession().createCriteria(Contacto.class).add(Restrictions.and(Restrictions.eq("pinUser", pin), Restrictions.eq("usuario", new Usuario(pinToBlock)))).uniqueResult();
+            if (contacto != null) {
+                if (contacto.isBloqueado()) {
+                    bloqueado = false;
+                    contacto.setBloqueado(false);
+                } else {
+                    bloqueado = true;
+                    contacto.setBloqueado(true);
+                }
+                getSession().update(contacto);
+                commit();
+                respuesta = true;
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            rollBack();
+        } finally {
+            close();
+            res[0] = respuesta;
+            res[1] = bloqueado;
+            return res;
+        }
+    }
+
+    public boolean addContacto(String pinUsuario, String pinContacto) {
+        return addContacto(pinUsuario, pinContacto, false);
+    }
+
+    private boolean addContacto(String pinUsuario, String pinContacto, boolean confirmado) {
+        boolean ok = false;
+        try {
+            Usuario usuarioContacto = getUsuarioByPin(pinContacto);
+            if (usuarioContacto != null) {
+                Contacto contacto = getContacto(pinUsuario, pinContacto);
+                if (contacto == null) {
+                    begin();
+                    contacto = new Contacto(new Usuario(pinContacto), pinUsuario);
+                    contacto.setConfirmado(confirmado);
+                    getSession().save(contacto);
+                    commit();
+                    ok = true;
+                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+            rollBack();
+        } finally {
+            close();
+        }
+        return ok;
+    }
+
+    public Usuario login(String pin, String pwd) {
+        Usuario usuario = null;
+        try {
+            begin();
+            usuario = (Usuario) getSession().createCriteria(Usuario.class).
+                    add(Restrictions.and(Restrictions.eq("pin", pin), Restrictions.eq("password", pwd))).uniqueResult();
+            commit();
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            close();
+            if (usuario != null) {
+                usuario.setPassword("");
+            }
+        }
+        return usuario;
+    }
+
+    public ArrayList<UsuarioSerial> getContactosToAccept(String pin) {
+        ArrayList<UsuarioSerial> usuarios = null;
+        try {
+            begin();
+            List<Contacto> list = getSession().createCriteria(Contacto.class).add(Restrictions.and(Restrictions.eq("usuario", new Usuario(pin)), Restrictions.eq("confirmado", false))).list();
+            commit();
+            if (list != null && !list.isEmpty()) {
+                usuarios = new ArrayList<UsuarioSerial>(list.size());
+                Usuario usuario;
+                for (int i = 0; i < list.size(); i++) {
+                    Contacto contacto = list.get(i);
+                    usuario = getUsuarioByPin(contacto.getPinUser());
+                    usuarios.add(new UsuarioSerial(usuario, contacto.isConfirmado()));
+                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            close();
+        }
+        return usuarios;
+    }
+
+    public ArrayList<UsuarioSerial> getContactos(String pin, Set<String> clientesConectados) {
+        ArrayList<UsuarioSerial> usuarios = null;
+        try {
+            begin();
+            List<Contacto> list = getSession().createCriteria(Contacto.class).add(Restrictions.and(Restrictions.eq("pinUser", pin), Restrictions.eq("confirmado", true))).list();
+            //List<Contacto> list = getSession().createCriteria(Contacto.class).add(Restrictions.eq("pinUser", pin)).list();
+            commit();
+            if (list != null && !list.isEmpty()) {
+                List<Contacto> listBlock = getContactosBlock(pin);
+                usuarios = new ArrayList<UsuarioSerial>(list.size());
+                Usuario usuario;
+                for (int i = 0; i < list.size(); i++) {
+                    Contacto contacto = list.get(i);
+                    usuario = contacto.getUsuario();
+                    if (!clientesConectados.contains(usuario.getPin()) || contacto.isBloqueado() || isContactoBlock(listBlock, usuario.getPin())) {
+                        usuario.setEstado(Constantes.ESTADO_DESCONECTADO);
+                    }
+                    usuarios.add(new UsuarioSerial(usuario, contacto.isConfirmado(), contacto.isBloqueado()));
+                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            close();
+        }
+        return usuarios;
+    }
+
+    public boolean isContactoBlock(List<Contacto> listBlock, String pinContacto) {
+        boolean retorno = false;
+        if (listBlock != null && !listBlock.isEmpty()) {
+            int index = 0;
+            for (int i = 0; i < listBlock.size(); i++) {
+                if (listBlock.get(i).getPinUser().equals(pinContacto)) {
+                    retorno = true;
+                    index = i;
+                    break;
+                }
+            }
+            if (retorno) {
+                listBlock.remove(index);
+            }
+        }
+        return retorno;
+    }
+
+    public List<Contacto> getContactosBlock(String pin) {
+        System.out.println("@@@@@getContactosBlock");
+        List<Contacto> list = null;
+        try {
+            begin();
+            SimpleExpression exp1 = Restrictions.eq("usuario", new Usuario(pin));
+            SimpleExpression exp2 = Restrictions.eq("confirmado", true);
+            SimpleExpression exp3 = Restrictions.eq("bloqueado", true);
+            LogicalExpression lgExp1 = Restrictions.and(exp2, exp3);
+            list = getSession().createCriteria(Contacto.class).add(Restrictions.and(exp1, lgExp1)).list();
+            //List<Contacto> list = getSession().createCriteria(Contacto.class).add(Restrictions.eq("pinUser", pin)).list();
+            commit();
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            return list;
+        }
+    }
+
+    private Contacto getContacto(String userPin, String contactoPin) {
+        Contacto contacto = null;
+        try {
+            begin();
+            contacto = (Contacto) getSession().createCriteria(Contacto.class).
+                    add(Restrictions.and(Restrictions.eq("pinUser", userPin), Restrictions.eq("usuario", new Usuario(contactoPin)))).
+                    setMaxResults(1).uniqueResult();
+            commit();
+        } catch (Exception e) {
+            log.error("Error inesperado al getContacto...", e);
+        } finally {
+            close();
+        }
+        return contacto;
+    }
+
+    public Usuario getUsuarioByPin(String pin) {
+        Usuario usuario = null;
+        try {
+            begin();
+            usuario = (Usuario) getSession().createCriteria(Usuario.class).
+                    add(Restrictions.eq("pin", pin)).uniqueResult();
+            commit();
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            close();
+            if (usuario != null) {
+                usuario.setPassword("");
+            }
+        }
+
+        return usuario;
+    }
+
+    private String generarPin(int longitud) {
+        String cadenaAleatoria = "";
+        long milis = new java.util.GregorianCalendar().getTimeInMillis();
+        Random r = new Random(milis);
+        int i = 0;
+        while (i < longitud) {
+            char c = (char) r.nextInt(255);
+            if ((c >= '0' && c <= '9') || (c >= 'A' && c <= 'Z')) {
+                cadenaAleatoria += c;
+                i++;
+            }
+        }
+        return cadenaAleatoria;
+    }
+
+    public ArrayList<UsuarioSerial> confirmarContactos(String pin, ArrayList<UsuarioSerial> contactosToAccept) {
+        ArrayList<UsuarioSerial> contactosConfirmados = null;
+        if (contactosToAccept != null && !contactosToAccept.isEmpty()) {
+            contactosConfirmados = new ArrayList<UsuarioSerial>();
+            UsuarioSerial usuarioSerial;
+            for (int i = 0; i < contactosToAccept.size(); i++) {
+                usuarioSerial = contactosToAccept.get(i);
+                if (usuarioSerial.isConfirmado()) {
+                    if (addContacto(pin, usuarioSerial.getPin(), true)) {
+                        if (acceptContacto(usuarioSerial.getPin(), pin)) {
+                            contactosConfirmados.add(usuarioSerial);
+                        }
+                    }
+                } else {
+                    notAcceptContact(usuarioSerial.getPin(), pin);
+                }
+            }
+        }
+        return contactosConfirmados;
+    }
+
+    public boolean acceptContacto(String pin, String pinContacto) {
+        boolean respuesta = false;
+        Contacto contacto = getContacto(pin, pinContacto);
+        if (contacto != null) {
+            try {
+                begin();
+                contacto.setConfirmado(true);
+                getSession().update(contacto);
+                commit();
+                respuesta = true;
+            } catch (Exception e) {
+                e.printStackTrace();
+                rollBack();
+            } finally {
+                close();
+                return respuesta;
+            }
+        }
+
+        return respuesta;
+
+    }
+
+    private void notAcceptContact(String pinUser, String pin) {
+        Contacto contacto = getContacto(pinUser, pin);
+        if (contacto != null) {
+            try {
+                begin();
+                getSession().delete(contacto);
+                commit();
+            } catch (Exception e) {
+                rollBack();
+            } finally {
+                close();
+            }
+        }
+    }
+
+    public void cambiarEstado(String pin, byte estado) {
+        try {
+            begin();
+            Usuario usuario1 = (Usuario) getSession().load(Usuario.class, pin);
+            if (usuario1 != null) {
+                usuario1.setEstado(estado);
+            }
+            commit();
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            close();
+        }
+
+    }
+    /*public boolean addMensaje(MensajeVO b) {
+    boolean ok=false;
+    log.debug("Guardando a BD, Mensaje");
+    Session session;
+    Transaction transaction = null;
+    
+    transaction = null;
+    try {
+    session = HibernateUtil.currentSession();
+    transaction = session.beginTransaction();
+    Conversacion c= new Conversacion(b.getAliasfuente(), b.getAliasdestino(), b.getMensaje());
+    session.persist(c);
+    transaction.commit();
+    ok=true;
+    } catch (Exception e) {
+    if (transaction != null) {
+    transaction.rollback();
+    }
+    log.error("Error inesperado al guardar Mensaje...", e);
+    
+    } finally {
+    HibernateUtil.closeSession();
+    }
+    return ok;
+    
+    }*/
+    /* public boolean getUsuarios(String idPin) {
+    boolean res = false;
+    log.debug("Consultado usuario " + idPin);
+    Session session;
+    Transaction transaction = null;
+    try {
+    session = HibernateUtil.currentSession();
+    transaction = null;
+    transaction = session.beginTransaction();
+    Usuario b = (Usuario) session.createCriteria(Usuario.class).
+    add(Restrictions.or(
+    Restrictions.and(Restrictions.eq("idmovilfuente", idNuevo), Restrictions.eq("idmovildestino", idBuscado)),
+    Restrictions.and(Restrictions.eq("idmovilfuente", idBuscado), Restrictions.eq("idmovildestino", idNuevo)))).
+    setMaxResults(1).uniqueResult();
+    transaction.commit();
+    res = (b == null ? false : true);
+    } catch (Exception e) {
+    if (transaction != null) {
+    try {
+    transaction.rollback();
+    } catch (Exception ex) {
+    }
+    }
+    log.error("Error inesperado al getBloqueado...", e);
+    
+    } finally {
+    HibernateUtil.closeSession();
+    }
+    return res;
+    }*/
+
+    /* public boolean removerBloqueo(Cliente cliente) {
+    boolean ok = false;
+    log.debug("Removiendo bloqueo de la BD. alias: " + cliente.getInfoCliente().getAlias());
+    Session session;
+    Transaction transaction = null;
+    
+    transaction = null;
+    try {
+    session = HibernateUtil.currentSession();
+    transaction = session.beginTransaction();
+    session.createSQLQuery("delete from bloqueo where idmovilfuente=:id ").setParameter("id", cliente.getInfoCliente().getId()).executeUpdate();
+    transaction.commit();
+    ok = true;
+    } catch (Exception e) {
+    if (transaction != null) {
+    transaction.rollback();
+    }
+    log.error("Error inesperado al remover Bloqueo...", e);
+    } finally {
+    HibernateUtil.closeSession();
+    }
+    return ok;
+    
+    }*/
+    /* public void addBloqueo(List<VueloVO> lstVuelosVO, List<String> vuelos, String tipo,Date fechaActual) {
+    if (lstVuelosVO == null || lstVuelosVO.isEmpty() || vuelos == null || vuelos.isEmpty()) {
+    return;
+    }
+    //log.info("Guardando a BD, tipoVuelo: "+tipo);
+    Session session;
+    Transaction transaction = null;
+    try{
+    session = HibernateUtil.currentSession();
+    transaction = session.beginTransaction();
+    session.createSQLQuery("delete from vuelo where (tipo = ?) and (vuelo not in (:vuelos)) and idaeropuerto=:idaeropuerto ").setString(0, tipo).setParameterList("vuelos", vuelos).setParameter("idaeropuerto", ID_AEROPUERTO).executeUpdate();
+    transaction.commit();
+    }catch(Exception e)
+    {
+    if (transaction != null) {
+    transaction.rollback();
+    }
+    log.error("***Error al borrar los vuelos ausentes: "+e.getMessage());
+    }
+    finally {
+    HibernateUtil.closeSession();
+    }
+    int j=0;
+    for (VueloVO v : lstVuelosVO) {
+    session = HibernateUtil.currentSession();
+    transaction = null;
+    try {
+    transaction = session.beginTransaction();
+    //Vuelo vuelo = (Vuelo) session.get(Vuelo.class, v.getVuelo());
+    Vuelo vuelo=null;
+    List<Vuelo> lstVuelos =  session.createCriteria(Vuelo.class).
+    add(Restrictions.eq("vuelo", v.getVuelo())).
+    add(Restrictions.eq("idaeropuerto", ID_AEROPUERTO)).
+    list();
+    if (lstVuelos!=null && !lstVuelos.isEmpty())
+    {
+    vuelo=lstVuelos.get(0);
+    int i=1;
+    while(vuelo.getTimestamp().getTime()==fechaActual.getTime() && i<lstVuelos.size())
+    {
+    vuelo=lstVuelos.get(i);
+    i++;
+    }
+    }
+    
+    j++;
+    if (vuelo == null || vuelo.getTimestamp().getTime()==fechaActual.getTime()) {
+    String id=v.getVuelo()+"-"+System.currentTimeMillis();
+    vuelo = new Vuelo(v.getNombreAerolinea(), v.getVuelo(),v.getFecha(), v.getHoraProgramada(), v.getHoraEstimada(), v.getCiudad(), v.getObservacion(), v.getCounterFaja(), v.getPuerta(), tipo,fechaActual,id,ID_AEROPUERTO);
+    session.persist(vuelo);
+    } else {
+    vuelo.setNombreAerolinea(v.getNombreAerolinea());
+    vuelo.setFecha(v.getFecha());
+    vuelo.setHoraProgramada(v.getHoraProgramada());
+    vuelo.setHoraEstimada(v.getHoraEstimada());
+    vuelo.setCiudad(v.getCiudad());
+    vuelo.setObservacion(v.getObservacion());
+    vuelo.setCounterfaja(v.getCounterFaja());
+    vuelo.setPuerta(v.getPuerta());
+    vuelo.setTipo(tipo);
+    vuelo.setIdaeropuerto(ID_AEROPUERTO);
+    vuelo.setTimestamp(fechaActual);
+    }
+    transaction.commit();
+    } catch (Exception e) {
+    if (transaction != null) {
+    transaction.rollback();
+    }
+    if (e instanceof ConstraintViolationException) {
+    log.info("Ya existe el vuelo...");
+    } else {
+    log.error("Error inesperado al guardar vuelos...", e);
+    }
+    } finally {
+    HibernateUtil.closeSession();
+    }
+    }
+    try{
+    session = HibernateUtil.currentSession();
+    transaction = session.beginTransaction();
+    session.createSQLQuery("delete from vuelo where timestamp <>:fecha AND tipo=:tipo and idaeropuerto=:idaeropuerto ").setParameter("fecha",fechaActual ).setParameter("tipo",tipo ).setParameter("idaeropuerto", ID_AEROPUERTO).executeUpdate();
+    transaction.commit();
+    }catch(Exception e)
+    {
+    if (transaction != null) {
+    transaction.rollback();
+    }
+    log.error("***Error al borrar los vuelos ausentes que se duplican: "+e.getMessage());
+    }
+    finally {
+    HibernateUtil.closeSession();
+    }
+    //log.info("Fin guardar BD----------");
+    }
+    
+    public List<AerolineaVO> consultarVuelos() {
+    List<AerolineaVO> retorno = null;
+    Session session = HibernateUtil.currentSession();
+    Transaction transaction = null;
+    try {
+    transaction = session.beginTransaction();
+    List<AerolineaVO> aerolineas = session.createCriteria(Vuelo.class).
+    setProjection(Projections.distinct(Projections.property("nombreAerolinea").as("nombre"))).
+    addOrder(Order.asc("nombreAerolinea").ignoreCase()).
+    add(Restrictions.eq("idaeropuerto", ID_AEROPUERTO)).
+    setResultTransformer(Transformers.aliasToBean(AerolineaVO.class)).list();
+    for (AerolineaVO aerolineaVO : aerolineas) {
+    aerolineaVO.setLstVuelosLI(getVuelo("LI", aerolineaVO.getNombre(), session));
+    aerolineaVO.setLstVuelosLN(getVuelo("LN", aerolineaVO.getNombre(), session));
+    aerolineaVO.setLstVuelosSN(getVuelo("SN", aerolineaVO.getNombre(), session));
+    aerolineaVO.setLstVuelosSI(getVuelo("SI", aerolineaVO.getNombre(), session));
+    }
+    retorno = aerolineas;
+    transaction.commit();
+    } catch (Exception e) {
+    retorno = null;
+    if (transaction != null) {
+    transaction.rollback();
+    }
+    log.error("Error inesperado al consultar vuelos...", e);
+    } finally {
+    HibernateUtil.closeSession();
+    }
+    return retorno;
+    }
+    
+    private List<VueloVO> getVuelo(String tipo, String nombreAerolinea, Session session) {
+    return session.createCriteria(Vuelo.class).
+    setProjection(Projections.projectionList().
+    add(Projections.property("nombreAerolinea").as("aerolinea")).
+    add(Projections.property("fecha").as("fecha")).
+    add(Projections.property("horaProgramada").as("horaProgramada")).
+    add(Projections.property("horaEstimada").as("horaEstimada")).
+    add(Projections.property("ciudad").as("ciudad")).
+    add(Projections.property("observacion").as("observacion")).
+    add(Projections.property("counterfaja").as("counterFaja")).
+    add(Projections.property("observacion").as("observacion")).
+    add(Projections.property("vuelo").as("vuelo")).
+    add(Projections.property("puerta").as("puerta"))).
+    add(Restrictions.eq("tipo", tipo)).
+    add(Restrictions.eq("nombreAerolinea", nombreAerolinea)).
+    add(Restrictions.eq("idaeropuerto", ID_AEROPUERTO)).
+    addOrder(Order.asc("fecha")).
+    addOrder(Order.asc("horaProgramada")).
+    setResultTransformer(Transformers.aliasToBean(VueloVO.class)).list();
+    }*/
+}
